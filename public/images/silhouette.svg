@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Silhouette of a man -->
+  <g opacity="0.4">
+    <!-- Head -->
+    <circle cx="100" cy="55" r="28" fill="currentColor"/>
+    <!-- Body -->
+    <path d="M100 90c-25 0-48 8-60 25-6 8-10 18-10 30v15c0 8 4 12 10 12h120c6 0 10-4 10-12v-15c0-12-4-22-10-30-12-17-35-25-60-25z" fill="currentColor"/>
+    <!-- Left arm -->
+    <path d="M40 115c-8-3-18-5-30-5v20c10 0 18 2 25 6l5-21z" fill="currentColor"/>
+    <!-- Right arm -->
+    <path d="M160 115c8-3 18-5 30-5v20c-10 0-18 2-25 6l-5-21z" fill="currentColor"/>
+    <!-- Left leg -->
+    <path d="M75 155l-8 35h-12l8-35h12z" fill="currentColor"/>
+    <!-- Right leg -->
+    <path d="M125 155l8 35h12l-8-35h-12z" fill="currentColor"/>
+  </g>
+</svg>

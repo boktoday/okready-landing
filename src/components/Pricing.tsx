@@ -31,14 +31,19 @@ export default function Pricing({ onJoinClick }: PricingProps) {
         </div>
 
         {/* Founder note */}
-        <div className="max-w-[65ch] mb-16 p-6 rounded-2xl border border-amber-500/10 bg-gradient-to-r from-amber-500/5 to-transparent">
-          <p className="text-sm text-earth-400 leading-relaxed italic">
-            "I've spent years testing, failing at, and refining these systems — so you don't have to. 
-            I had to figure out what works. You just get the playbook."
-          </p>
-          <p className="text-xs text-amber-400 font-medium mt-3 tracking-wider uppercase">
-            — Brendan, OKReady Australia
-          </p>
+        <div className="max-w-[65ch] mb-16 p-6 rounded-2xl border border-amber-500/10 bg-gradient-to-r from-amber-500/5 to-transparent flex items-start gap-5">
+          <div className="w-14 h-14 rounded-full bg-earth-700/30 border border-earth-600/20 flex-shrink-0 overflow-hidden flex items-center justify-center text-amber-300/60">
+            <img src="/images/silhouette.svg" alt="" className="w-10 h-10" />
+          </div>
+          <div>
+            <p className="text-sm text-earth-400 leading-relaxed italic">
+              "I've spent years testing, failing at, and refining these systems — so you don't have to. 
+              I had to figure out what works. You just get the playbook."
+            </p>
+            <p className="text-xs text-amber-400 font-medium mt-3 tracking-wider uppercase">
+              — Brendan, OKReady Australia
+            </p>
+          </div>
         </div>
 
         <div className="grid md:grid-cols-5 gap-6">
