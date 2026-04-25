@@ -79,10 +79,12 @@ export default function Hero({ onJoinClick }: HeroProps) {
               ))}
               
               {/* Central hub */}
-              <div className="absolute inset-[15%] rounded-full bg-gradient-to-br from-earth-800/50 to-earth-900/80 backdrop-blur-xl border border-white/5 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="text-4xl font-bold gradient-text mb-3">24</div>
-                  <div className="text-xs text-earth-400 uppercase tracking-widest">Weeks</div>
+              <div className="absolute inset-[15%] rounded-full bg-gradient-to-br from-amber-500/5 to-earth-900/80 backdrop-blur-xl border border-amber-500/10 flex items-center justify-center">
+                <div className="text-center px-4">
+                  <div className="text-xs text-amber-400 font-semibold uppercase tracking-wider mb-2">Cost of Living</div>
+                  <div className="text-[10px] text-earth-400 leading-relaxed">
+                    Fuel • Supply chains • Economic pressure
+                  </div>
                 </div>
               </div>
 
