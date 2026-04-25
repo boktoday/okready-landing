@@ -26,7 +26,7 @@ export default function Navbar({ onJoinClick }: NavbarProps) {
           <div className="w-8 h-8 rounded-full bg-gradient-to-br from-amber-400 to-emerald-500 flex items-center justify-center text-earth-950 font-bold text-sm">
             ✓
           </div>
-          <span className="text-sm font-medium text-earth-200 group-hover:text-earth-50 transition-colors hidden sm:block">
+          <span className="text-base font-medium text-earth-200 group-hover:text-earth-50 transition-colors hidden sm:block">
             OKReady Australia
           </span>
         </a>
