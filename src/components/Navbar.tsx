@@ -24,7 +24,7 @@ export default function Navbar({ onJoinClick }: NavbarProps) {
       <div className="max-w-[1400px] mx-auto px-6 flex items-center justify-between h-16 md:h-20">
         <a href="#" className="flex items-center gap-2 group">
           <div className="w-8 h-8 rounded-full bg-gradient-to-br from-amber-400 to-emerald-500 flex items-center justify-center text-earth-950 font-bold text-sm">
-            A
+            ✓
           </div>
           <span className="text-sm font-medium text-earth-200 group-hover:text-earth-50 transition-colors hidden sm:block">
             OKReady Australia
