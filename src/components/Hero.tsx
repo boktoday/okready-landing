@@ -27,7 +27,8 @@ export default function Hero({ onJoinClick }: HeroProps) {
 
             <p className="text-lg md:text-xl text-earth-400 leading-relaxed max-w-[65ch] mb-8">
               A <strong className="text-earth-200">24-week modular curriculum</strong> for building genuine 
-              antifragility — not just surviving disruption, but <em className="text-earth-200">thriving through it</em>. 
+              antifragility — <strong className="text-amber-300">designed for beginners</strong>. No prior experience needed. 
+              Not just surviving disruption, but <em className="text-earth-200">thriving through it</em>. 
               The OKReady Mindset meets a Self-Sufficiency System: mindset, digital competence, economic resilience, and community connection in the AI era.
             </p>
 
