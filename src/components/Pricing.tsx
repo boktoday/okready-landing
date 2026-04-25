@@ -30,6 +30,17 @@ export default function Pricing({ onJoinClick }: PricingProps) {
           </p>
         </div>
 
+        {/* Founder note */}
+        <div className="max-w-[65ch] mb-16 p-6 rounded-2xl border border-amber-500/10 bg-gradient-to-r from-amber-500/5 to-transparent">
+          <p className="text-sm text-earth-400 leading-relaxed italic">
+            "I've spent years testing, failing at, and refining these systems — so you don't have to. 
+            I had to figure out what works. You just get the playbook."
+          </p>
+          <p className="text-xs text-amber-400 font-medium mt-3 tracking-wider uppercase">
+            — Brendan, OKReady Australia
+          </p>
+        </div>
+
         <div className="grid md:grid-cols-5 gap-6">
           {/* Pricing card */}
           <div className="md:col-span-2">
