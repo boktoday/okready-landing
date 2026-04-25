@@ -91,7 +91,7 @@ export default function Waitlist() {
           </div>
           <div className="bg-amber-500/10 border-2 border-amber-400/40 rounded-xl p-5 text-center relative overflow-hidden">
             <div className="absolute inset-0 bg-gradient-to-br from-amber-400/5 to-transparent pointer-events-none" />
-            <p className="text-xs text-amber-400 font-semibold uppercase tracking-wider mb-2 relative">🎁 You get</p>
+            <p className="text-xs text-amber-400 font-semibold uppercase tracking-wider mb-2 relative">🎁 Inc Bonus</p>
             <p className="text-xl font-bold text-amber-200 relative">AI Agent<br/>Guide</p>
             <p className="text-xs text-amber-400/70 mt-2 relative">share with your community</p>
           </div>
