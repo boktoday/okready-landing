@@ -83,7 +83,7 @@ export default function Hero({ onJoinClick }: HeroProps) {
                 <div className="text-center px-4">
                   <div className="text-xs text-amber-400 font-semibold uppercase tracking-wider mb-2">Cost of Living</div>
                   <div className="text-[10px] text-earth-400 leading-relaxed">
-                    Fuel • Groceries • Supply chains • Economic pressure
+                    Fuel • Groceries • Supply chains • Unemployment • Economic pressure
                   </div>
                 </div>
               </div>
