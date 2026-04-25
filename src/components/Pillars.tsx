@@ -39,7 +39,7 @@ export default function Pillars() {
     {
       num: "07",
       title: "Community Networks",
-      desc: "Resilience is a team sport. Local mapping, ham radio, mutual aid networks, intergenerational skill sharing.",
+      desc: "Resilience is a team sport. Local mapping, ham radio, local chat groups, mutual aid networks, intergenerational skill sharing.",
       color: "amber",
     },
   ];
