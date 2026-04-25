@@ -89,15 +89,16 @@ export default function Waitlist() {
             <p className="text-2xl font-bold text-earth-100">$10</p>
             <p className="text-xs text-earth-500 mt-1">one-time fee</p>
           </div>
-          <div className="bg-amber-500/5 border border-amber-500/10 rounded-xl p-4 text-center">
-            <p className="text-xs text-amber-500 mb-1">You save</p>
-            <p className="text-2xl font-bold text-amber-300">$10</p>
-            <p className="text-xs text-amber-500 mt-1">off launch price</p>
+          <div className="bg-amber-500/10 border-2 border-amber-400/40 rounded-xl p-5 text-center relative overflow-hidden">
+            <div className="absolute inset-0 bg-gradient-to-br from-amber-400/5 to-transparent pointer-events-none" />
+            <p className="text-xs text-amber-400 font-semibold uppercase tracking-wider mb-2 relative">🎁 You get</p>
+            <p className="text-xl font-bold text-amber-200 relative">AI Agent<br/>Guide</p>
+            <p className="text-xs text-amber-400/70 mt-2 relative">share with your community</p>
           </div>
           <div className="bg-white/[0.03] border border-white/5 rounded-xl p-4 text-center">
-            <p className="text-xs text-earth-500 mb-1">You get</p>
-            <p className="text-lg font-bold text-earth-100">AI Agent<br/>Guide</p>
-            <p className="text-xs text-earth-500 mt-1">share with your community</p>
+            <p className="text-xs text-earth-500 mb-1">You save</p>
+            <p className="text-2xl font-bold text-amber-300">$10</p>
+            <p className="text-xs text-earth-500 mt-1">off launch price</p>
           </div>
         </div>
 
