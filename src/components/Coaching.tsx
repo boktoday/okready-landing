@@ -15,7 +15,7 @@ export default function Coaching({ onJoinClick }: CoachingProps) {
       title: "Complete Guidance",
       sessions: "Full-service concierge",
       price: "$6,000",
-      desc: "White-glove everything. Complete personal shopping for all resilience gear, solar, water, food systems, and emergency infrastructure. Full system design, sourcing, and implementation oversight. Limited to 1 client per quarter.",
+      desc: "White-glove everything. Complete personal shopping for all resilience gear, solar, water, food systems, and emergency infrastructure. Full system design, sourcing, and implementation oversight. Limited to 2 spots per quarter.",
       popular: true,
     },
   ];
