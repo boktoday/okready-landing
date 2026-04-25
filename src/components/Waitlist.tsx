@@ -23,12 +23,11 @@ export default function Waitlist() {
 
     setLoading(true);
 
-    // Include payment flag for Activepieces webhook
     try {
       const res = await fetch('https://cloud.activepieces.com/api/v1/webhooks/9m2OHMUPhQjKdwSAnbKNJ', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ name, email, source: 'okready-landing-page', paid_waitlist: true }),
+        body: JSON.stringify({ name, email, source: 'okready-landing-page' }),
       });
 
       if (!res.ok) throw new Error('Webhook failed');
@@ -53,11 +52,9 @@ export default function Waitlist() {
           <h2 className="text-3xl md:text-4xl font-bold tracking-tighter text-earth-100 mb-4">
             You're on the list
           </h2>
-          <p className="text-lg text-earth-400 leading-relaxed mb-6">
-            Check your inbox for your bonus <span className="text-amber-300 font-semibold">AI Agent Knowledge Share Guide</span> — a ready-to-use guide you can share with your own private community on WhatsApp, Telegram, Signal, or any group chat.
-          </p>
-          <p className="text-sm text-earth-500 mb-8">
-            Your $10 is secured toward the full system. You'll get $10 off at launch.
+          <p className="text-lg text-earth-400 leading-relaxed mb-8">
+            We'll let you know as soon as OKReady Australia opens. 
+            In the meantime, check your inbox for a welcome note with some starter resources.
           </p>
           <div className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse-glow mx-auto" />
         </div>
@@ -77,29 +74,9 @@ export default function Waitlist() {
             <span className="text-earth-100">Waitlist</span>
           </h2>
           <p className="text-lg text-earth-400 leading-relaxed max-w-[65ch] mx-auto">
-            Secure your spot for just <span className="text-earth-200 font-semibold">$10.00</span> and get 
-            <span className="text-amber-300 font-semibold"> $10.00 off</span> the full system when it launches.
+            Be the first to know when the Pathway opens. You'll also get exclusive access to 
+            starter resources, community previews, and early-bird pricing.
           </p>
-        </div>
-
-        {/* Bonus incentives */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-10">
-          <div className="bg-white/[0.03] border border-white/5 rounded-xl p-4 text-center">
-            <p className="text-xs text-earth-500 mb-1">You pay</p>
-            <p className="text-2xl font-bold text-earth-100">$10</p>
-            <p className="text-xs text-earth-500 mt-1">one-time fee</p>
-          </div>
-          <div className="bg-amber-500/10 border-2 border-amber-400/40 rounded-xl p-5 text-center relative overflow-hidden">
-            <div className="absolute inset-0 bg-gradient-to-br from-amber-400/5 to-transparent pointer-events-none" />
-            <p className="text-xs text-amber-400 font-semibold uppercase tracking-wider mb-2 relative">🎁 Inc Bonus</p>
-            <p className="text-xl font-bold text-amber-200 relative">AI Agent<br/>Guide</p>
-            <p className="text-xs text-amber-400/70 mt-2 relative">share with your community</p>
-          </div>
-          <div className="bg-white/[0.03] border border-white/5 rounded-xl p-4 text-center">
-            <p className="text-xs text-earth-500 mb-1">You save</p>
-            <p className="text-2xl font-bold text-amber-300">$10</p>
-            <p className="text-xs text-earth-500 mt-1">off launch price</p>
-          </div>
         </div>
 
         <div className="p-8 md:p-10 rounded-3xl border border-white/5 bg-gradient-to-b from-white/[0.03] to-transparent backdrop-blur-sm glow-amber">
@@ -149,7 +126,7 @@ export default function Waitlist() {
                   Joining...
                 </>
               ) : (
-                'Secure My Spot — $10'
+                'Join the Waitlist'
               )}
             </button>
           </form>

@@ -23,9 +23,9 @@ export default function Pricing({ onJoinClick }: PricingProps) {
             <span className="text-earth-100">from $79.99</span>
           </h2>
           <p className="text-lg text-earth-400 leading-relaxed">
-            One payment for the system. Secure your spot on the waitlist for just $10 — 
-            you'll get $10 off at launch plus a bonus AI Agent Guide you can share with 
-            your own private community.
+            One payment. Full system. No subscriptions. Includes the AI Agent System, 
+            Buying Guide, and weekly live sessions — everything you need to build your 
+            antifragile life.
           </p>
         </div>
 
@@ -57,16 +57,10 @@ export default function Pricing({ onJoinClick }: PricingProps) {
                 onClick={onJoinClick}
                 className="w-full px-6 py-3.5 bg-amber-500/20 border border-amber-500/30 text-amber-300 rounded-xl text-sm font-semibold hover:bg-amber-500/30 hover:text-amber-200 transition-all hover:scale-[1.02] active:scale-[0.98]"
               >
-                Secure My Spot — $10
+                Join the Waitlist
               </button>
 
               <div className="mt-4 flex items-center justify-center gap-2 text-xs text-earth-500">
-                <span className="inline-flex items-center gap-1">
-                  <svg className="w-3.5 h-3.5 text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                  $10 off at launch
-                </span>
                 <svg className="w-4 h-4 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
