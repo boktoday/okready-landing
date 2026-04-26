@@ -38,15 +38,15 @@ export default function Curriculum() {
     },
     {
       weeks: "19–21",
-      title: "Community Networks",
-      desc: "Local resource mapping, ham radio, mesh networks, mutual aid, intergenerational skill sharing.",
-      topics: ["Ham radio license", "Tool libraries", "Seed swaps", "Neighborhood mapping"],
-    },
-    {
-      weeks: "22–24",
       title: "Faith & Future",
       desc: "Hope as a skill, ritual and grounding practices, intergenerational storytelling, finding purpose in hardship.",
       topics: ["Antifragile optimism", "Ritual & grounding", "Long-term thinking", "Ancestral wisdom"],
+    },
+    {
+      weeks: "22–24",
+      title: "Community Networks",
+      desc: "Local resource mapping, ham radio, mesh networks, mutual aid, intergenerational skill sharing.",
+      topics: ["Ham radio license", "Tool libraries", "Seed swaps", "Neighborhood mapping"],
     },
   ];
 

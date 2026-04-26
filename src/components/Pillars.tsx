@@ -38,15 +38,15 @@ export default function Pillars() {
     },
     {
       num: "07",
-      title: "Community Networks",
-      desc: "Resilience is a team sport. Local mapping, ham radio, local chat groups, mutual aid networks, intergenerational skill sharing.",
-      color: "amber",
-    },
-    {
-      num: "08",
       title: "Faith & Future",
       desc: "The human capacity to believe things will be OK and act accordingly. Hope as a skill, ritual and grounding practices, intergenerational storytelling, long-term thinking, finding purpose in hardship.",
       color: "purple",
+    },
+    {
+      num: "08",
+      title: "Community Networks",
+      desc: "Resilience is a team sport. Local mapping, ham radio, local chat groups, mutual aid networks, intergenerational skill sharing.",
+      color: "amber",
     },
   ];
 
