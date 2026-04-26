@@ -46,9 +46,9 @@ export default function Pricing({ onJoinClick }: PricingProps) {
           </div>
         </div>
 
-        <div className="grid md:grid-cols-5 gap-6">
+        <div className="grid md:grid-cols-2 gap-6">
           {/* Pricing card */}
-          <div className="md:col-span-2">
+          <div className="md:col-span-1">
             <div className="p-8 md:p-10 rounded-3xl border border-amber-500/20 bg-gradient-to-b from-amber-500/5 to-transparent glow-amber h-full flex flex-col relative">
               {/* Early Bird badge */}
               <div className="absolute -top-3 right-6 px-3 py-1 bg-gradient-to-r from-amber-500 to-emerald-500 rounded-full text-xs text-earth-950 font-bold uppercase tracking-wider shadow-lg shadow-amber-500/20">
@@ -105,7 +105,7 @@ export default function Pricing({ onJoinClick }: PricingProps) {
           </div>
 
           {/* Feature highlights */}
-          <div className="md:col-span-3 grid md:grid-cols-2 gap-6">
+          <div className="md:col-span-1 grid md:grid-cols-2 gap-6">
             {/* AI Agent System block */}
             <div className="p-8 rounded-2xl border border-white/5 bg-gradient-to-b from-white/[0.02] to-transparent">
               <div className="flex items-center gap-3 mb-4">
