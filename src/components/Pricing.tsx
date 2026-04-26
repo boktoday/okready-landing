@@ -105,7 +105,7 @@ export default function Pricing({ onJoinClick }: PricingProps) {
           </div>
 
           {/* Feature highlights */}
-          <div className="md:col-span-3 grid gap-6">
+          <div className="md:col-span-3 grid md:grid-cols-2 gap-6">
             {/* AI Agent System block */}
             <div className="p-8 rounded-2xl border border-white/5 bg-gradient-to-b from-white/[0.02] to-transparent">
               <div className="flex items-center gap-3 mb-4">
