@@ -39,7 +39,7 @@ export default function Pillars() {
     {
       num: "07",
       title: "Faith & Future",
-      desc: "The human capacity to believe things will be OK and act accordingly. Hope as a skill, ritual and grounding practices, intergenerational storytelling, long-term thinking, finding purpose in hardship.",
+      desc: "The human capacity to believe in a creator and that things will be OK, and act accordingly. Hope as a skill, ritual and grounding practices, intergenerational storytelling, long-term thinking, finding purpose in hardship.",
       color: "purple",
     },
     {
