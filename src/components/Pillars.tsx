@@ -42,6 +42,12 @@ export default function Pillars() {
       desc: "Resilience is a team sport. Local mapping, ham radio, local chat groups, mutual aid networks, intergenerational skill sharing.",
       color: "amber",
     },
+    {
+      num: "08",
+      title: "Faith & Future",
+      desc: "The human capacity to believe things will be OK and act accordingly. Hope as a skill, ritual and grounding practices, intergenerational storytelling, long-term thinking, finding purpose in hardship.",
+      color: "purple",
+    },
   ];
 
   const getGradient = (color: string) => {
@@ -49,6 +55,7 @@ export default function Pillars() {
       case "amber": return "from-amber-400/20 to-amber-500/5";
       case "emerald": return "from-emerald-400/20 to-emerald-500/5";
       case "cyan": return "from-cyan-400/20 to-cyan-500/5";
+      case "purple": return "from-purple-400/20 to-purple-500/5";
       default: return "from-earth-400/20 to-earth-500/5";
     }
   };
@@ -58,6 +65,7 @@ export default function Pillars() {
       case "amber": return "hover:border-amber-500/30";
       case "emerald": return "hover:border-emerald-500/30";
       case "cyan": return "hover:border-cyan-500/30";
+      case "purple": return "hover:border-purple-500/30";
       default: return "hover:border-earth-400/30";
     }
   };
@@ -67,6 +75,7 @@ export default function Pillars() {
       case "amber": return "text-amber-400";
       case "emerald": return "text-emerald-400";
       case "cyan": return "text-cyan-400";
+      case "purple": return "text-purple-400";
       default: return "text-earth-400";
     }
   };
@@ -76,7 +85,7 @@ export default function Pillars() {
       <div className="max-w-[1400px] mx-auto px-6">
         <div className="max-w-[65ch] mb-16">
           <h2 className="text-3xl md:text-5xl font-bold tracking-tighter mb-6">
-            <span className="gradient-text">7 Pillars</span>{' '}
+            <span className="gradient-text">8 Pillars</span>{' '}
             <span className="text-earth-100">of Readiness</span>
           </h2>
           <p className="text-lg text-earth-400 leading-relaxed">

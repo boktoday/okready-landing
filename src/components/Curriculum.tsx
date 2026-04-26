@@ -19,28 +19,34 @@ export default function Curriculum() {
       topics: ["Side hustles", "Cash cushion", "BIFL philosophy", "Value-based budgeting"],
     },
     {
-      weeks: "10–14",
+      weeks: "10–12",
       title: "Energy & Infrastructure",
       desc: "Home energy audit, distributed energy, solar basics, water security, fuel substitution.",
       topics: ["LED/weatherstripping", "Solar 101", "Rain catchment", "E-bike transport"],
     },
     {
-      weeks: "15–20",
+      weeks: "13–15",
       title: "Food & Self-Sufficiency",
-      desc: "Container gardening, microgreens, preservation, Kratky hydroponics, mushrooms, insect protein.",
+      desc: "Container gardening, sprouts, microgreens, preservation, hydroponics, insect protein.",
       topics: ["Victory garden", "Canning/fermenting", "Vermicomposting", "Permaculture zones"],
     },
     {
-      weeks: "21–24",
+      weeks: "16–18",
       title: "Physical Skills",
       desc: "First aid certification, home security, mechanical competence, situational awareness.",
       topics: ["Stop The Bleed", "Auto maintenance", "Home DIY", "OODA loop"],
     },
     {
-      weeks: "Ongoing",
+      weeks: "19–21",
       title: "Community Networks",
       desc: "Local resource mapping, ham radio, mesh networks, mutual aid, intergenerational skill sharing.",
       topics: ["Ham radio license", "Tool libraries", "Seed swaps", "Neighborhood mapping"],
+    },
+    {
+      weeks: "22–24",
+      title: "Faith & Future",
+      desc: "Hope as a skill, ritual and grounding practices, intergenerational storytelling, finding purpose in hardship.",
+      topics: ["Antifragile optimism", "Ritual & grounding", "Long-term thinking", "Ancestral wisdom"],
     },
   ];
 
@@ -56,7 +62,7 @@ export default function Curriculum() {
             <span className="gradient-text">24-Week Journey</span>
           </h2>
           <p className="text-lg text-earth-400 leading-relaxed">
-            A structured but flexible curriculum. Each phase builds on the last — but you can start 
+            A structured but flexible curriculum across 8 pillars. Each phase builds on the last — but you can start 
             anywhere. Follow the suggested weekly rhythm or adapt it to your life.
           </p>
         </div>
@@ -103,7 +109,7 @@ export default function Curriculum() {
             {[
               { day: "Monday", focus: "Digital/AI skills or financial admin" },
               { day: "Wednesday", focus: "Physical project (gardening, repair, energy)" },
-              { day: "Saturday", focus: "Community networking or skill class" },
+              { day: "Saturday", focus: "Community networking, faith practice, or skill class" },
               { day: "Daily", focus: "15 mins of learning (podcast, book, video)" },
             ].map((item) => (
               <div key={item.day} className="p-4 rounded-xl border border-white/5 bg-white/[0.02]">
