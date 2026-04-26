@@ -9,7 +9,7 @@ export default function Privacy() {
           <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
           </svg>
-          Back to OKReady
+          Back to OK Ready
         </Link>
 
         <h1 className="text-3xl md:text-5xl font-bold tracking-tighter text-earth-100 mb-4">Privacy Policy</h1>

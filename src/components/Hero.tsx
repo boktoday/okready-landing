@@ -19,7 +19,7 @@ export default function Hero({ onJoinClick }: HeroProps) {
 
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tighter leading-[0.92] mb-6">
               <span className="gradient-text">The </span>
-              <span className="text-earth-100">OKReady Mindset</span><br/>
+              <span className="text-earth-100">OK Ready Mindset</span><br/>
               <span className="gradient-text-amber">&amp;</span>{' '}
               <span className="text-earth-100">Self-Sufficiency</span><br/>
               <span className="gradient-text">System</span>
@@ -29,7 +29,7 @@ export default function Hero({ onJoinClick }: HeroProps) {
               A <strong className="text-earth-200">24-week modular curriculum</strong> for building genuine 
               antifragility — <strong className="text-amber-300">designed for beginners</strong>. No prior experience needed. 
               Not just surviving disruption, but <em className="text-earth-200">thriving through it</em>. 
-              The OKReady Mindset meets a <strong className="text-amber-300">Modern Self-Sufficiency System for current events</strong>: mindset, digital competence, economic resilience, and community connection in the AI era.
+              The OK Ready Mindset meets a <strong className="text-amber-300">Modern Self-Sufficiency System for current events</strong>: mindset, digital competence, economic resilience, and community connection in the AI era.
             </p>
 
             <div className="flex flex-wrap gap-4">

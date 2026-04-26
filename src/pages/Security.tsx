@@ -9,7 +9,7 @@ export default function Security() {
           <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
           </svg>
-          Back to OKReady
+          Back to OK Ready
         </Link>
 
         <h1 className="text-3xl md:text-5xl font-bold tracking-tighter text-earth-100 mb-4">Security</h1>
@@ -50,7 +50,7 @@ export default function Security() {
 
           <section>
             <h2 className="text-lg font-semibold text-earth-100 mb-3">Third-Party Security</h2>
-            <p className="text-earth-400">We carefully vet all third-party services used in the operation of OKReady Australia:</p>
+            <p className="text-earth-400">We carefully vet all third-party services used in the operation of OK Ready Australia:</p>
             <ul className="list-disc pl-5 mt-2 space-y-1 text-earth-400">
               <li><strong className="text-earth-200">Activepieces</strong> — GDPR-compliant workflow automation</li>
               <li><strong className="text-earth-200">Payment processor</strong> — PCI DSS Level 1 compliant</li>
@@ -72,7 +72,7 @@ export default function Security() {
 
           <section>
             <h2 className="text-lg font-semibold text-earth-100 mb-3">Your Responsibility</h2>
-            <p className="text-earth-400">Security is a shared responsibility. The curriculum teaches digital hygiene (password managers, 2FA, offline backups, phishing awareness) — we encourage you to implement these practices for your own digital resilience. OKReady Australia is not liable for security incidents resulting from user negligence or third-party service breaches.</p>
+            <p className="text-earth-400">Security is a shared responsibility. The curriculum teaches digital hygiene (password managers, 2FA, offline backups, phishing awareness) — we encourage you to implement these practices for your own digital resilience. OK Ready Australia is not liable for security incidents resulting from user negligence or third-party service breaches.</p>
           </section>
 
           <section>

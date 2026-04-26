@@ -42,7 +42,7 @@ export default function Navbar({ onJoinClick }: NavbarProps) {
             ✓
           </div>
           <span className="text-sm sm:text-base font-medium text-earth-200 group-hover:text-earth-50 transition-colors hidden xs:block">
-            OKReady Australia
+            OK Ready Australia
           </span>
         </a>
 

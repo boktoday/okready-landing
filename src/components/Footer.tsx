@@ -11,11 +11,11 @@ export default function Footer() {
               <div className="w-7 h-7 rounded-full bg-gradient-to-br from-amber-400 to-emerald-500 flex items-center justify-center text-earth-950 font-bold text-xs">
                 A
               </div>
-              <span className="text-sm font-medium text-earth-300">OKReady Australia</span>
+              <span className="text-sm font-medium text-earth-300">OK Ready Australia</span>
             </div>
             <p className="text-sm text-earth-500 leading-relaxed max-w-[40ch]">
               A 24-week modular system for building genuine antifragility — 
-              the OKReady Mindset meets a Self-Sufficiency System that gets stronger through volatility.
+              the OK Ready Mindset meets a Self-Sufficiency System that gets stronger through volatility.
             </p>
           </div>
 
@@ -55,7 +55,7 @@ export default function Footer() {
 
         <div className="mt-12 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-xs text-earth-600">
-            &copy; {new Date().getFullYear()} OKReady Australia. All rights reserved.
+            &copy; {new Date().getFullYear()} OK Ready Australia. All rights reserved.
           </div>
           <div className="flex items-center gap-4">
             <Link to="/privacy" className="text-xs text-earth-500 hover:text-earth-300 transition-colors">Privacy</Link>

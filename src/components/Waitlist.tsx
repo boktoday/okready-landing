@@ -27,7 +27,7 @@ export default function Waitlist() {
       const res = await fetch('https://cloud.activepieces.com/api/v1/webhooks/9m2OHMUPhQjKdwSAnbKNJ', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ name, email, source: 'okready-landing-page' }),
+        body: JSON.stringify({ name, email, source: 'OK Ready-landing-page' }),
       });
 
       if (!res.ok) throw new Error('Webhook failed');
@@ -53,7 +53,7 @@ export default function Waitlist() {
             You're on the list
           </h2>
           <p className="text-lg text-earth-400 leading-relaxed mb-8">
-            We'll let you know as soon as OKReady Australia opens. 
+            We'll let you know as soon as OK Ready Australia opens. 
             In the meantime, check your inbox for a welcome note with some starter resources.
           </p>
           <div className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse-glow mx-auto" />

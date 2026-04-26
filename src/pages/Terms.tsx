@@ -9,7 +9,7 @@ export default function Terms() {
           <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
           </svg>
-          Back to OKReady
+          Back to OK Ready
         </Link>
 
         <h1 className="text-3xl md:text-5xl font-bold tracking-tighter text-earth-100 mb-4">Terms of Service</h1>
@@ -18,7 +18,7 @@ export default function Terms() {
         <div className="space-y-8 text-sm leading-relaxed text-earth-300">
           <section>
             <h2 className="text-lg font-semibold text-earth-100 mb-3">1. Acceptance of Terms</h2>
-            <p className="text-earth-400">By purchasing or accessing the OKReady Australia Antifragile System (the "System"), including the curriculum, AI Agent System, Buying Guide, coaching services, and related materials, you agree to be bound by these Terms of Service.</p>
+            <p className="text-earth-400">By purchasing or accessing the OK Ready Australia Antifragile System (the "System"), including the curriculum, AI Agent System, Buying Guide, coaching services, and related materials, you agree to be bound by these Terms of Service.</p>
           </section>
 
           <section>
@@ -30,7 +30,7 @@ export default function Terms() {
               </div>
               <div>
                 <h3 className="font-semibold text-earth-200">Coaching</h3>
-                <p>One-on-one coaching available from $1,000 AUD per month. Pricing tiers are as displayed on the OKReady Sales Page and are subject to change for new clients.</p>
+                <p>One-on-one coaching available from $1,000 AUD per month. Pricing tiers are as displayed on the OK Ready Sales Page and are subject to change for new clients.</p>
               </div>
               <div>
                 <h3 className="font-semibold text-earth-200">Payment Options</h3>
@@ -46,7 +46,7 @@ export default function Terms() {
 
           <section>
             <h2 className="text-lg font-semibold text-earth-100 mb-3">4. Intellectual Property</h2>
-            <p className="text-earth-400">All content provided as part of the System — including curriculum materials, AI Agent configurations, Buying Guide, video and audio content, templates, checklists, and coaching frameworks — is the intellectual property of OKReady Australia. You receive a personal, non-transferable license to use the materials for your own antifragility journey. You may not redistribute, resell, or share access to the System with others.</p>
+            <p className="text-earth-400">All content provided as part of the System — including curriculum materials, AI Agent configurations, Buying Guide, video and audio content, templates, checklists, and coaching frameworks — is the intellectual property of OK Ready Australia. You receive a personal, non-transferable license to use the materials for your own antifragility journey. You may not redistribute, resell, or share access to the System with others.</p>
           </section>
 
           <section>
@@ -56,7 +56,7 @@ export default function Terms() {
 
           <section>
             <h2 className="text-lg font-semibold text-earth-100 mb-3">6. Limitation of Liability</h2>
-            <p className="text-earth-400">OKReady Australia provides educational content and coaching guidance only. You are solely responsible for your decisions, actions, and outcomes. We are not liable for any direct, indirect, or consequential damages arising from your use of the System.</p>
+            <p className="text-earth-400">OK Ready Australia provides educational content and coaching guidance only. You are solely responsible for your decisions, actions, and outcomes. We are not liable for any direct, indirect, or consequential damages arising from your use of the System.</p>
           </section>
 
           <section>

@@ -41,7 +41,7 @@ export default function Pricing({ onJoinClick }: PricingProps) {
               I had to figure out what works. You just get the playbook."
             </p>
             <p className="text-xs text-amber-400 font-medium mt-3 tracking-wider uppercase">
-              — Brendan, OKReady Australia
+              — Brendan, OK Ready Australia
             </p>
           </div>
         </div>

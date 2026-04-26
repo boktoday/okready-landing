@@ -9,7 +9,7 @@ export default function Disclaimers() {
           <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
           </svg>
-          Back to OKReady
+          Back to OK Ready
         </Link>
 
         <h1 className="text-3xl md:text-5xl font-bold tracking-tighter text-earth-100 mb-4">Disclaimers</h1>
@@ -18,7 +18,7 @@ export default function Disclaimers() {
         <div className="space-y-8 text-sm leading-relaxed text-earth-300">
           <section className="p-6 rounded-2xl border border-amber-500/20 bg-amber-500/5">
             <h2 className="text-lg font-semibold text-amber-300 mb-3">Important: Read This First</h2>
-            <p className="text-amber-200/80">The OKReady Australia Antifragile System provides educational content only. It is not professional advice. You are solely responsible for your own decisions, safety, and outcomes.</p>
+            <p className="text-amber-200/80">The OK Ready Australia Antifragile System provides educational content only. It is not professional advice. You are solely responsible for your own decisions, safety, and outcomes.</p>
           </section>
 
           <section>
