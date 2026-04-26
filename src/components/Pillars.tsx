@@ -94,7 +94,7 @@ export default function Pillars() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div className="grid md:grid-cols-2 gap-5">
           {pillars.map((p) => (
             <div
               key={p.num}
