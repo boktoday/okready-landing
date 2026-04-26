@@ -27,7 +27,7 @@ export default function Pillars() {
     {
       num: "05",
       title: "Food & Material",
-      desc: "Turn your space into a productive node. Container gardening, microgreens, fermentation, Kratky hydroponics, insects, mushrooms.",
+      desc: "Turn your space into a productive node. Container gardening, sprouts, microgreens, fermentation, Kratky hydroponics, insects, mushrooms.",
       color: "emerald",
     },
     {
