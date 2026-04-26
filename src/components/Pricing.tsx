@@ -107,7 +107,9 @@ export default function Pricing({ onJoinClick }: PricingProps) {
               </div>
               <p className="text-sm text-earth-400 leading-relaxed">
                 Pre-built AI agents for supply chain tracking, energy monitoring, food production planning, 
-                and financial agility. Automate the tedious parts of running your antifragile system.
+                and financial agility. <strong className="text-earth-200">Offline-first</strong> — designed to work without internet. 
+                Built on <strong className="text-cyan-300">open source</strong> tools so you're never locked into a subscription. 
+                Automate the tedious parts of running your antifragile system.
               </p>
             </div>
 
