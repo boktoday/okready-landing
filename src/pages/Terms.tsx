@@ -30,7 +30,7 @@ export default function Terms() {
               </div>
               <div>
                 <h3 className="font-semibold text-earth-200">Coaching</h3>
-                <p>One-on-one coaching available from $1,000 AUD per month. Pricing tiers are as displayed on the OK Ready Sales Page and are subject to change for new clients.</p>
+                <p>One-on-one coaching available from $1,500 AUD per month (Deep Guidance) through to $6,000 AUD per month (Complete Guidance with concierge personal shopping). Pricing tiers are as displayed on the OK Ready sales page and are subject to change for new clients.</p>
               </div>
               <div>
                 <h3 className="font-semibold text-earth-200">Payment Options</h3>
