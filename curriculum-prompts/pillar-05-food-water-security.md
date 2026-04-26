@@ -1,27 +1,48 @@
 # Pillar 05 — Food & Water Security
 
+## Onboarding Questionnaire
+
+Answer these before running the prompt.
+
+---
+
+1. **Location:** What suburb and state? What climate? (subtropical, temperate, Mediterranean, arid)
+2. **Dwelling type:** House, apartment, or unit? Owned or renting?
+3. **Outdoor space:** Backyard, balcony, courtyard, none, or community garden access?
+4. **Current food storage:** How many days/weeks of food do you estimate you have on hand?
+5. **Current water storage:** None, a few bottles, tank, or rain barrel?
+6. **Gardening experience:** None, beginner, intermediate, or advanced?
+7. **Household diet:** Standard, vegetarian, vegan, gluten-free, or other?
+8. **Budget for this pillar:** How much per week (or one-time amount)?
+9. **Primary concern:** Food cost, supply disruption, health, or space limitations?
+10. **Time available:** Hours per week?
+11. **Completed Pillar 01:** Not started / completed Week 1 / completed?
+12. **Completed Pillar 04:** Not started / completed Week 1 / completed?
+
+---
+
 ## CO-STAR System Prompt
 
-Copy this prompt into your preferred AI tool. It will generate a personalised Week 1 action plan for food storage, growing food, water purification, and reducing reliance on supermarkets.
+Copy this into your AI tool and replace bracketed sections with your answers.
 
 ---
 
 ```
 CONTEXT:
-I'm building food and water security. Here's my current situation:
+I'm building food and water security. Based on my onboarding questionnaire:
 
-- Location: [YOUR_SUBURB], [YOUR_STATE] — climate: [E.G. SUBTROPICAL / TEMPERATE / MEDITERRANEAN / ARID]
-- Dwelling: [HOUSE / APARTMENT / UNIT — OWNED / RENTING]
-- Outdoor space: [BACKYARD / BALCONY / COURTYARD / NONE / COMMUNITY_GARDEN_ACCESS]
-- Current food storage: [DAYS / WEEKS of food on hand — estimate]
-- Current water storage: [NONE / FEW_BOTTLES / TANK / RAIN_BARREL]
-- Gardening experience: [NONE / BEGINNER / INTERMEDIATE / ADVANCED]
-- Household diet: [STANDARD / VEGETARIAN / VEGAN / GLUTEN_FREE / OTHER]
-- Budget for this pillar: $[AMOUNT] per week (or $[AMOUNT] one-time)
-- Primary concern: [FOOD_COST / SUPPLY_DISRUPTION / HEALTH / SPACE_LIMITATIONS]
-- Time available: [HOURS] per week
-- Completed Pillar 01 (Mindset & Systems): [YES / NO]
-- Completed Pillar 04 (Energy & Infrastructure): [YES / NO]
+- Location: [ANSWER 1] — climate
+- Dwelling: [ANSWER 2]
+- Outdoor space: [ANSWER 3]
+- Current food storage: [ANSWER 4]
+- Current water storage: [ANSWER 5]
+- Gardening experience: [ANSWER 6]
+- Household diet: [ANSWER 7]
+- Budget: $[ANSWER 8]
+- Primary concern: [ANSWER 9]
+- Time available: [ANSWER 10] hours per week
+- Completed Pillar 01: [ANSWER 11]
+- Completed Pillar 04: [ANSWER 12]
 
 OBJECTIVE:
 Generate my personal Week 1 action plan for "Food & Water Security." Start with a simple audit of what I have and what I'd need for 2 weeks of self-sufficiency. Focus on the cheapest, fastest steps first. If I have no outdoor space, give balcony/indoor options. Account for my household's actual diet and cooking setup.
@@ -37,8 +58,8 @@ An Australian household wanting food security without becoming a full-scale home
 
 RESPONSE FORMAT:
 - Week 1 Goal (one sentence)
-- Food audit — what I have, what I'm missing for a 2-week supply ([TIME_ESTIMATE])
-- Water audit — current capacity and gap ([TIME_ESTIMATE])
+- Food audit — what I have, what I'm missing for a 2-week supply
+- Water audit — current capacity and gap
 - Priority Action #1 — quickest win (under 30 min, under $20)
 - Priority Action #2 — deeper action (1 hour, under $50)
 - Priority Action #3 — if time allows (2 hours)
@@ -49,9 +70,5 @@ RESPONSE FORMAT:
 ```
 
 ---
-
-## What to expect
-
-The plan adapts to your space — apartment dwellers get balcony/herb garden advice, homeowners get garden bed planning. Everyone starts with the 2-week food buffer first.
 
 *Last updated: April 2026*

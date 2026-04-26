@@ -1,27 +1,48 @@
 # Pillar 04 — Energy & Infrastructure
 
+## Onboarding Questionnaire
+
+Answer these before running the prompt.
+
+---
+
+1. **Location:** What suburb and state?
+2. **Dwelling type:** House, apartment, unit, or townhouse? Owned or renting?
+3. **Energy source:** Grid only, solar, solar+feed-in, generator?
+4. **Average monthly power bill:** Approximate amount?
+5. **Water source:** Town water, rainwater tank, bore, or none?
+6. **Heating:** Gas, electric, wood, reverse cycle, or none?
+7. **Cooking:** Gas, electric, induction, or camp stove?
+8. **Back-up power:** None, generator, solar generator, power bank?
+9. **Constraints:** Renting (can't install solar), body corporate rules, no yard, limited budget? List any.
+10. **Budget for this pillar:** One-time amount you can spend on energy/infrastructure?
+11. **Time available:** Hours per week?
+12. **Completed Pillar 01:** Not started / completed Week 1 / completed?
+
+---
+
 ## CO-STAR System Prompt
 
-Copy this prompt into your preferred AI tool. It will generate a personalised Week 1 action plan for reducing dependency on centralised utilities — solar basics, home energy audit, water security, and alternative heat.
+Copy this into your AI tool and replace bracketed sections with your answers.
 
 ---
 
 ```
 CONTEXT:
-I'm building energy and infrastructure resilience. Here's my current situation:
+I'm building energy and infrastructure resilience. Based on my onboarding questionnaire:
 
-- Location: [YOUR_SUBURB], [YOUR_STATE]
-- Dwelling: [HOUSE / APARTMENT / UNIT / TOWNHOUSE — OWNED / RENTING]
-- Energy source: [GRID_ONLY / SOLAR / SOLAR+BILL / GENERATOR]
-- Average monthly power bill: $[AMOUNT]
-- Water source: [TOWN_WATER / TANK / BORE / NONE]
-- Heating: [GAS / ELECTRIC / WOOD / REVERSE_CYCLE / NONE]
-- Cooking: [GAS / ELECTRIC / INDUCTION / CAMP_STOVE]
-- Back-up power: [NONE / GENERATOR / SOLAR_GENERATOR / POWER_BANK]
-- Constraints: [RENTING — CAN'T_INSTALL_SOLAR / BODY_CORP_RULES / NO_YARD / BUDGET]
-- Budget for this pillar: $[AMOUNT] (one-time, not weekly)
-- Time available: [HOURS] per week
-- Completed Pillar 01 (Mindset & Systems): [YES / NO]
+- Location: [ANSWER 1]
+- Dwelling: [ANSWER 2]
+- Energy source: [ANSWER 3]
+- Monthly power bill: $[ANSWER 4]
+- Water source: [ANSWER 5]
+- Heating: [ANSWER 6]
+- Cooking: [ANSWER 7]
+- Back-up power: [ANSWER 8]
+- Constraints: [ANSWER 9]
+- Budget: $[ANSWER 10] one-time
+- Time available: [ANSWER 11] hours per week
+- Completed Pillar 01: [ANSWER 12]
 
 OBJECTIVE:
 Generate my personal Week 1 action plan for "Energy & Infrastructure." Start with a home energy audit — understanding what I use and waste before buying anything. Recommend the cheapest, highest-impact changes first. If I'm renting, give rental-friendly options only.
@@ -40,16 +61,12 @@ RESPONSE FORMAT:
 - Home energy audit — 3 things to check this week ([TIME_ESTIMATE] each)
 - Quickest win for reducing power usage (under $50, under 30 min)
 - Rental-friendly upgrade recommendation (if applicable)
-- One thing to research for next week (solar quote, generator type, water tank options)
+- One thing to research for next week
 - Shopping list for this week (items + cost)
 - What to ignore for now (don't buy this yet)
 - One "win" to aim for
 ```
 
 ---
-
-## What to expect
-
-Whether you rent a city apartment or own a suburban house, the plan will meet you where you are. Renters get rental-friendly advice. Homeowners get installation pathways. Everyone starts with the cheapest, fastest changes first.
 
 *Last updated: April 2026*

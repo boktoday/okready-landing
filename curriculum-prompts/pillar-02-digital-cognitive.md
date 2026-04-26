@@ -1,28 +1,47 @@
 # Pillar 02 — Digital & Cognitive
 
+## Onboarding Questionnaire
+
+Answer these before running the prompt.
+
+---
+
+1. **Location:** What suburb and state?
+2. **Dwelling type:** House, apartment, or unit?
+3. **Household:** List everyone — ages — and their digital literacy level (beginner / basic / confident / power user).
+4. **Current tech:** What devices do you have? (laptop, smartphone, tablet, desktop) Do you have reliable internet?
+5. **Internet reliability:** Stable, unreliable with frequent outages, or none?
+6. **Digital skills:** Complete beginner, basic (email and browsing), confident (can troubleshoot), or power user (can code/automate)?
+7. **AI experience:** Never used / tried ChatGPT / daily user / build agents?
+8. **Primary concern:** Digital hygiene (passwords, scams), AI literacy, offline workflows, or children's online safety?
+9. **Time available:** Hours per week for this pillar?
+10. **Completed Pillar 01:** Not started / completed Week 1 / completed full pillar?
+
+---
+
 ## CO-STAR System Prompt
 
-Copy this prompt into your preferred AI tool. It will generate a personalised Week 1 action plan for building digital resilience — AI literacy, no-code automation, digital hygiene, and offline-first workflows.
+Copy this into your AI tool and replace bracketed sections with your answers.
 
 ---
 
 ```
 CONTEXT:
-I'm building digital resilience as part of a larger self-sufficiency system. Here's my current situation:
+I'm building digital resilience as part of a larger self-sufficiency system. Based on my onboarding questionnaire:
 
-- Location: [YOUR_SUBURB], [YOUR_STATE]
-- Dwelling: [HOUSE/APARTMENT/UNIT]
-- Household: [LIST_EVERYONE — AGES — DIGITAL_LITERACY_LEVELS]
-- Current tech: [E.G. LAPTOP — SMARTPHONE — TABLET — NO_INTERNET — SATELLITE]
-- Internet reliability: [STABLE / UNRELIABLE / FREQUENT_OUTAGES / NONE]
-- Digital skills: [COMPLETE_BEGINNER / BASIC / CONFIDENT / POWER_USER]
-- AI experience: [NEVER_USED / TRIED_CHATGPT / DAILY_USER / BUILD_AGENTS]
-- Primary concern: [DIGITAL_HYGIENE / AI_LITERACY / OFFGRID_WORKFLOWS / CHILDREN_SAFETY]
-- Time available: [HOURS] per week
-- Experience level for Pillar 01: [NOT_STARTED / COMPLETED_WEEK_1 / COMPLETED_PILLAR]
+- Location: [ANSWER 1]
+- Dwelling: [ANSWER 2]
+- Household: [ANSWER 3 — ages and digital literacy levels]
+- Current tech: [ANSWER 4 — devices and internet]
+- Internet reliability: [ANSWER 5]
+- Digital skills: [ANSWER 6]
+- AI experience: [ANSWER 7]
+- Primary concern: [ANSWER 8]
+- Time available: [ANSWER 9]
+- Completed Pillar 01: [ANSWER 10]
 
 OBJECTIVE:
-Generate my personal Week 1 action plan for "Digital & Cognitive" resilience. Focus on one thing only: what gives me the most capability for the least effort. The AI should not assume unlimited internet or the latest hardware. Offline-first thinking is critical.
+Generate my personal Week 1 action plan for "Digital & Cognitive" resilience. Focus on one thing only: what gives me the most capability for the least effort. Do not assume unlimited internet or the latest hardware. Offline-first thinking is critical.
 
 STYLE:
 Direct, practical. No assumption of tech fluency. Explain terms like "prompt engineering" and "automation" in one sentence each if they appear.
@@ -45,9 +64,5 @@ RESPONSE FORMAT:
 ```
 
 ---
-
-## What to expect
-
-The AI will tailor this to your actual tech setup — if you're a beginner it'll start with password managers and how to talk to ChatGPT. If you're experienced it'll jump to offline LLMs, automation workflows, and digital decluttering.
 
 *Last updated: April 2026*

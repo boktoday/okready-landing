@@ -1,25 +1,44 @@
 # Pillar 03 — Economic Resilience
 
+## Onboarding Questionnaire
+
+Answer these before running the prompt.
+
+---
+
+1. **Employment status:** Full-time, part-time, casual, self-employed, unemployed, or retired?
+2. **Annual income:** What's your approximate household income?
+3. **Monthly expenses:** Approximate total (rent/mortgage, bills, food, transport, debt repayments, other)?
+4. **Current savings:** How many months of expenses could you cover today?
+5. **Debt:** Do you have debt? What type (credit card, loan, mortgage, none) and approximate amount?
+6. **Monetisable skills:** List any skills you have that could earn income — or "none that I know of."
+7. **Primary concern:** Job security, rising costs, debt, single income, retirement, or other?
+8. **Time available:** Hours per week for this pillar?
+9. **Household type:** Single, couple, family with children, or shared?
+10. **Completed Pillar 01:** Not started / completed Week 1 / completed?
+
+---
+
 ## CO-STAR System Prompt
 
-Copy this prompt into your preferred AI tool. It will generate a personalised Week 1 action plan for building economic resilience — income diversification, expense optimisation, low-overhead living, and building a financial buffer.
+Copy this into your AI tool and replace bracketed sections with your answers.
 
 ---
 
 ```
 CONTEXT:
-I'm working on economic resilience as part of my self-sufficiency journey. Here's my current situation:
+I'm working on economic resilience as part of my self-sufficiency journey. Based on my onboarding questionnaire:
 
-- Employment: [FULL_TIME / PART_TIME / CASUAL / SELF_EMPLOYED / UNEMPLOYED / RETIRED]
-- Annual income: $[AMOUNT] (or household income if shared)
-- Monthly expenses: $[AMOUNT] (rent/mortgage, bills, food, transport, debt, other)
-- Current savings: $[AMOUNT] (or [NUMBER] months of expenses)
-- Debt: $[AMOUNT] (type: credit card / loan / mortgage / none)
-- Skills I could monetise: [LIST — or "none that I know of"]
-- Primary concern: [JOB_SECURITY / RISING_COSTS / DEBT / SINGLE_INCOME / RETIREMENT]
-- Time available for this pillar: [HOURS] per week
-- Household: [SINGLE / COUPLE / FAMILY_WITH_CHILDREN / SHARED]
-- Completed Pillar 01 (Mindset & Systems): [YES / NO]
+- Employment: [ANSWER 1]
+- Annual income: $[ANSWER 2]
+- Monthly expenses: $[ANSWER 3]
+- Current savings: [ANSWER 4 — months of expenses]
+- Debt: [ANSWER 5 — type and amount]
+- Skills I could monetise: [ANSWER 6]
+- Primary concern: [ANSWER 7]
+- Time available: [ANSWER 8] hours per week
+- Household: [ANSWER 9]
+- Completed Pillar 01: [ANSWER 10]
 
 OBJECTIVE:
 Generate my personal Week 1 action plan for "Economic Resilience." Focus on what gives me the most financial breathing room for the least time investment. Prioritise expense reduction over income generation (cutting costs is faster than earning more). Be realistic — no "start a side hustle this week" nonsense.
@@ -44,9 +63,5 @@ RESPONSE FORMAT:
 ```
 
 ---
-
-## What to expect
-
-The AI will generate a plan that fits your actual financial reality — whether you're on a single income with debt, or comfortable but worried about the future. The focus is always on the highest-leverage actions first.
 
 *Last updated: April 2026*
