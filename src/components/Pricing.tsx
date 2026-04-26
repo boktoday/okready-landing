@@ -49,7 +49,11 @@ export default function Pricing({ onJoinClick }: PricingProps) {
         <div className="grid md:grid-cols-5 gap-6">
           {/* Pricing card */}
           <div className="md:col-span-2">
-            <div className="p-8 md:p-10 rounded-3xl border border-amber-500/20 bg-gradient-to-b from-amber-500/5 to-transparent glow-amber h-full flex flex-col">
+            <div className="p-8 md:p-10 rounded-3xl border border-amber-500/20 bg-gradient-to-b from-amber-500/5 to-transparent glow-amber h-full flex flex-col relative">
+              {/* Early Bird badge */}
+              <div className="absolute -top-3 right-6 px-3 py-1 bg-gradient-to-r from-amber-500 to-emerald-500 rounded-full text-xs text-earth-950 font-bold uppercase tracking-wider shadow-lg shadow-amber-500/20">
+                Early Bird
+              </div>
               <div className="mb-6">
                 <div className="text-xs text-amber-400 uppercase tracking-widest mb-2">One-time payment</div>
                 <div className="flex items-baseline gap-1">
