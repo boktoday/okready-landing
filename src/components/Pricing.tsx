@@ -55,12 +55,18 @@ export default function Pricing({ onJoinClick }: PricingProps) {
                 Early Bird
               </div>
               <div className="mb-6">
-                <div className="text-xs text-amber-400 uppercase tracking-widest mb-2">One-time payment</div>
+                <div className="text-xs text-amber-400 uppercase tracking-widest mb-2">One-time payment — Early Bird</div>
                 <div className="flex items-baseline gap-1">
                   <span className="text-5xl font-bold text-earth-100">$79</span>
                   <span className="text-2xl text-earth-400">.99</span>
                 </div>
                 <div className="text-sm text-earth-500 mt-1">lifetime access</div>
+                <div className="mt-2 inline-flex items-center gap-1.5 px-2 py-1 rounded-md bg-amber-500/10 border border-amber-500/20">
+                  <svg className="w-3 h-3 text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                  <span className="text-[11px] text-amber-300 font-medium">Lock in now — going up to $99.99 in June</span>
+                </div>
               </div>
 
               <div className="flex-1 space-y-3 mb-8">
