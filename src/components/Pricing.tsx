@@ -94,6 +94,14 @@ export default function Pricing({ onJoinClick }: PricingProps) {
                 </svg>
                 7-day money back guarantee — no questions asked
               </div>
+
+              <div className="mt-3 pt-3 border-t border-white/5 flex items-center justify-center gap-2 text-xs">
+                <svg className="w-3.5 h-3.5 text-emerald-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 100 4 2 2 0 000-4z" />
+                </svg>
+                <span className="text-emerald-400 font-medium">10% of profits</span>
+                <span className="text-earth-500">donated to local food banks</span>
+              </div>
             </div>
           </div>
 
