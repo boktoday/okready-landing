@@ -53,8 +53,7 @@ export default function Waitlist() {
             You're on the list
           </h2>
           <p className="text-lg text-earth-400 leading-relaxed mb-8">
-            We'll let you know as soon as OK Ready Australia opens. 
-            In the meantime, check your inbox for a welcome note with some starter resources.
+            Check your inbox for your free copy of <b>"Why OK Ready?"</b> — our report on the current pressures facing Australian households and why now is the time to build resilience. We'll also let you know as soon as the full system opens.
           </p>
           <div className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse-glow mx-auto" />
         </div>
@@ -77,6 +76,12 @@ export default function Waitlist() {
             Be the first to know when the Pathway opens. You'll also get exclusive access to 
             starter resources, community previews, and early-bird pricing.
           </p>
+          <div className="mt-6 inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-xs text-emerald-300 font-medium">
+            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+            </svg>
+            Free gift when you sign up — <b>Why OK Ready?</b> — a PDF report on why now is the time
+          </div>
         </div>
 
         <div className="p-8 md:p-10 rounded-3xl border border-white/5 bg-gradient-to-b from-white/[0.03] to-transparent backdrop-blur-sm glow-amber">
