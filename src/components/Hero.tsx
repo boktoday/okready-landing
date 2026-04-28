@@ -88,27 +88,28 @@ export default function Hero({ onJoinClick }: HeroProps) {
                 </div>
               </div>
 
-              {/* Orbiting dots — 24 dots, 15° apart */}
+              {/* Orbiting dots — 24 dots, 15° apart, clockwise pulse */}
               {Array.from({ length: 24 }, (_, i) => {
                 const deg = i * 15;
                 const colors = ['#f59e0b', '#10b981', '#22d3ee', '#C88A2A'];
                 const shadows = [
-                  'rgba(245, 158, 11, 0.4)',
-                  'rgba(16, 185, 129, 0.4)',
-                  'rgba(34, 211, 238, 0.4)',
-                  'rgba(200, 138, 42, 0.4)',
+                  'rgba(245, 158, 11, 0.5)',
+                  'rgba(16, 185, 129, 0.5)',
+                  'rgba(34, 211, 238, 0.5)',
+                  'rgba(200, 138, 42, 0.5)',
                 ];
                 const color = colors[i % colors.length];
                 const shadow = shadows[i % shadows.length];
                 return (
                   <div
                     key={i}
-                    className="absolute w-2 h-2 rounded-full"
+                    className="absolute w-2 h-2 rounded-full animate-dot-pulse"
                     style={{
                       background: color,
                       top: `calc(50% - 4px + ${Math.sin(deg * Math.PI / 180) * 42}%)`,
                       left: `calc(50% - 4px + ${Math.cos(deg * Math.PI / 180) * 42}%)`,
                       boxShadow: `0 0 10px ${shadow}`,
+                      animationDelay: `${i * 0.125}s`,
                     }}
                   />
                 );
