@@ -65,7 +65,7 @@ Local mapping, ham radio, mutual aid, intergenerational skill sharing, private T
 - Online via Zoom, max 8 teens
 - $395 per teen
 - Our trainers hold NDIS and Working with Children checks
-- Covers: Emergency preparedness, AI literacy & AI Agents, Basic first aid, Growing food, Digital hygiene, Community building, Trivium & Quadrivium, Confidence & resilience
+- Covers: Emergency preparedness, AI literacy & AI Agents, Basic first aid, Growing food, Digital hygiene, Community building, Trivium & Quadrivium, Side hustles & marketing basics, Confidence & resilience
 
 ## The Antifragile Mindset
 The core philosophy: antifragility is not about surviving the storm — it's about building a ship that gets stronger the more it sails through rough water. Three categories: Brittle (broken by shock), Robust (unharmed by shock), Antifragile (strengthened by shock).
