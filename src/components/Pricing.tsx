@@ -8,7 +8,6 @@ export default function Pricing({ onJoinClick }: PricingProps) {
     "AI Agent System — automated workflows & decision tools",
     "Buying Guide — smart purchasing for resilience gear & tools",
     "Weekly online setup sessions with live Q&A",
-    "Community access — network with fellow participants on our private Telegram group",
     "Starter resource library (books, templates, checklists)",
     "Lifetime access — all future updates included",
     "Afterpay payments available",
