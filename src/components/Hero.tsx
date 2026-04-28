@@ -80,9 +80,9 @@ export default function Hero({ onJoinClick }: HeroProps) {
               
               {/* Central hub */}
               <div className="absolute inset-[15%] rounded-full bg-gradient-to-br from-amber-500/5 to-earth-900/80 backdrop-blur-xl border border-amber-500/10 flex items-center justify-center">
-                <div className="text-center px-4">
-                  <div className="text-xs text-amber-400 font-semibold uppercase tracking-wider mb-2">Cost of Living</div>
-                  <div className="text-[10px] text-earth-400 leading-relaxed">
+                <div className="text-center px-6">
+                  <div className="text-sm text-amber-400 font-bold uppercase tracking-wider mb-2">Cost of Living</div>
+                  <div className="text-xs text-earth-400 leading-relaxed">
                     Fuel • Groceries • Supply chains • Unemployment • Economic pressure
                   </div>
                 </div>
