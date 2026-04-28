@@ -74,6 +74,7 @@ export default function TeensWorkshop({ onRegisterClick }: TeensWorkshopProps) {
                 "Growing food — sprouts, microgreens, container gardening",
                 "Digital hygiene — passwords, scams, online safety",
                 "Community building — how to be a good neighbour",
+                "Understanding the Trivium and Quadrivium — classical thinking skills for clear reasoning",
                 "Confidence &amp; resilience — the mindset that handles anything",
               ].map((item) => (
                 <li key={item} className="flex items-start gap-3 text-sm text-earth-400">
