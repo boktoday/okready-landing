@@ -8,6 +8,7 @@ import Antifragile from './components/Antifragile';
 import Pricing from './components/Pricing';
 import Coaching from './components/Coaching';
 import TeensWorkshop from './components/TeensWorkshop';
+import ChatBot from './components/ChatBot';
 import Waitlist from './components/Waitlist';
 import Footer from './components/Footer';
 import Privacy from './pages/Privacy';
@@ -32,6 +33,7 @@ function LandingPage() {
         <Waitlist />
       </div>
       <Footer />
+      <ChatBot />
     </>
   );
 }
