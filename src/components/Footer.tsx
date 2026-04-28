@@ -55,7 +55,7 @@ export default function Footer() {
 
         <div className="mt-12 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-xs text-earth-600">
-            &copy; {new Date().getFullYear()} OK Ready Australia. All rights reserved.
+            &copy; 2026 OK Ready. ABN: 60118175136. Australia. All rights reserved.
           </div>
           <div className="flex items-center gap-4">
             <Link to="/privacy" className="text-xs text-earth-500 hover:text-earth-300 transition-colors">Privacy</Link>
