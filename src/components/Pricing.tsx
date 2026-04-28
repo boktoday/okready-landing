@@ -104,7 +104,7 @@ export default function Pricing({ onJoinClick }: PricingProps) {
           </div>
 
           {/* Feature highlights */}
-          <div className="md:col-span-1 grid md:grid-cols-2 gap-6">
+          <div className="md:col-span-1 grid grid-cols-2 gap-6">
             {/* AI Agent System block */}
             <div className="p-8 rounded-2xl border border-white/5 bg-gradient-to-b from-white/[0.02] to-transparent">
               <div className="flex items-center gap-3 mb-4">
@@ -166,6 +166,25 @@ export default function Pricing({ onJoinClick }: PricingProps) {
               </p>
             </div>
 
+            {/* Starter Resource Library block */}
+            <div className="p-8 rounded-2xl border border-white/5 bg-gradient-to-b from-white/[0.02] to-transparent">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center">
+                  <svg className="w-5 h-5 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                  </svg>
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold text-earth-200">Starter Resource Library</h3>
+                  <p className="text-xs text-earth-500">Books, templates &amp; checklists</p>
+                </div>
+              </div>
+              <p className="text-sm text-earth-400 leading-relaxed">
+                Curated collection of essential reading, ready-to-use templates for planning 
+                your antifragile system, and step-by-step checklists for every pillar. 
+                No fluff — just what works.
+              </p>
+            </div>
 
           </div>
         </div>
