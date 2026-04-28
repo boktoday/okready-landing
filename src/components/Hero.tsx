@@ -21,7 +21,7 @@ export default function Hero({ onJoinClick }: HeroProps) {
               <span className="gradient-text">The </span>
               <span className="text-earth-100">OK Ready Mindset</span><br/>
               <span className="gradient-text-amber">&amp;</span>{' '}
-              <span className="text-earth-100">Self-Sufficiency</span><br/>
+              <span className="text-earth-100">Modern Self-Sufficiency</span><br/>
               <span className="gradient-text">System</span>
             </h1>
 
