@@ -69,7 +69,7 @@ export default function TeensWorkshop({ onRegisterClick }: TeensWorkshopProps) {
             <ul className="space-y-3 mb-8">
               {[
                 "Emergency preparedness — what to do when things go wrong",
-                "AI literacy — how to use AI tools safely and effectively",
+                "AI literacy &amp; AI Agents — how to use the latest agentic AI tools safely and effectively",
                 "Basic first aid &amp; situational awareness",
                 "Growing food — sprouts, microgreens, container gardening",
                 "Digital hygiene — passwords, scams, online safety",
