@@ -7,6 +7,7 @@ import Curriculum from './components/Curriculum';
 import Antifragile from './components/Antifragile';
 import Pricing from './components/Pricing';
 import Coaching from './components/Coaching';
+import TeensWorkshop from './components/TeensWorkshop';
 import Waitlist from './components/Waitlist';
 import Footer from './components/Footer';
 import Privacy from './pages/Privacy';
@@ -26,6 +27,7 @@ function LandingPage() {
       <Antifragile />
       <Pricing onJoinClick={() => waitlistRef.current?.scrollIntoView({ behavior: 'smooth' })} />
       <Coaching onJoinClick={() => waitlistRef.current?.scrollIntoView({ behavior: 'smooth' })} />
+      <TeensWorkshop onRegisterClick={() => waitlistRef.current?.scrollIntoView({ behavior: 'smooth' })} />
       <div ref={waitlistRef}>
         <Waitlist />
       </div>
