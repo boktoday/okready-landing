@@ -25,12 +25,14 @@ function findAnswer(query: string, knowledge: string): string {
     const words = q.split(/\s+/).filter(w => w.length > 2);
     let score = 0;
     for (const word of words) {
-      // Count occurrences in section body
       const regex = new RegExp(word, 'gi');
       const matches = body.match(regex);
       if (matches) score += matches.length;
-      // Bonus for title matches
-      if (header.toLowerCase().includes(word)) score += 3;
+      // Heavy bonus for header matches (10x)
+      if (header.toLowerCase().includes(word)) score += 10;
+      // Bonus for subtitle matches (### headings)
+      const subHeaders = section.split('\n').filter(l => l.trim().startsWith('###')).join(' ').toLowerCase();
+      if (subHeaders.includes(word)) score += 5;
     }
     return { section, score };
   });

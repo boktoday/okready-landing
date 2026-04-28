@@ -6,13 +6,19 @@ OK Ready Australia offers a 24-week modular curriculum called the Antifragile Sy
 ## Current Status
 Publishing May 2026. Currently accepting free waitlist signups.
 
-## Pricing
-- Lifetime access: $79.99 (Early Bird price, going up to $99.99 in June)
-- One payment, no subscriptions
-- 7-day money back guarantee
+## Pricing — How Much Does the Course Cost?
+The OK Ready Antifragile System course is a one-time payment of **$79.99** (Early Bird price, going up to **$99.99** in June). There are no subscriptions or recurring fees. This gives you lifetime access to the full 24-week modular curriculum, all 8 Pillars of Readiness, and all future updates.
+
+**What you get for $79.99:**
+- Full 24-week modular curriculum — 8 pillars of antifragility
+- AI Agent System — automated workflows & decision tools
+- Buying Guide — smart purchasing for resilience gear
+- Weekly online setup sessions with live Q&A
+- Starter Resource Library (books, templates, checklists)
+- Lifetime access — all future updates included
 - Afterpay payments available
+- 7-day money back guarantee
 - 10% of profits donated to local food banks
-- Includes: AI Agent System, Buying Guide, Weekly Online Setup & Q&A, Starter Resource Library, lifetime updates
 
 ## The 8 Pillars of Readiness
 
@@ -79,8 +85,8 @@ The core philosophy: antifragility is not about surviving the storm — it's abo
 6. Learn Through Skin in the Game — real stakes produce real learning
 7. Respect the Nonlinear — small changes produce massive effects
 
-## Waitlist
-Free to join. Sign up at the waitlist section. Receive the "Why OK Ready?" free PDF as a gift.
+## Waitlist — Free Signup
+The OK Ready course is currently in pre-launch. Join the free waitlist to get early access when we publish in May 2026. Free to join. Sign up at the waitlist section on the website. Receive the "Why OK Ready?" free PDF as a gift when you sign up.
 
 ## Free PDF Resources
 - Why OK Ready? — the case for antifragility with current Australian statistics
