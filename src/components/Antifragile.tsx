@@ -107,6 +107,21 @@ export default function Antifragile() {
             </div>
           </div>
         </div>
+
+        {/* Full-width image: Indoor growing setup */}
+        <div className="mt-24 relative rounded-2xl overflow-hidden">
+          <img
+            src="/images/okready-microgreens-hero.jpg"
+            alt="IKEA KALLAX shelf repurposed as an indoor microgreen and spirulina grow station under purple LED lights"
+            className="w-full h-auto object-cover rounded-2xl"
+            style={{ maxHeight: '500px' }}
+          />
+          <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-[#141613]/80 via-[#141613]/40 to-transparent p-6 md:p-10">
+            <p className="text-sm text-earth-300 max-w-[50ch]">
+              <span className="text-amber-400 font-semibold">Week 13:</span> Your first microgreens — ready to harvest in 10 days from an IKEA shelf. No backyard required.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   );
