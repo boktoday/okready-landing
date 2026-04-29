@@ -56,7 +56,7 @@ export default function TeensWorkshop({ onRegisterClick }: TeensWorkshopProps) {
               <div className="flex items-start gap-3">
                 <div className="w-5 h-5 rounded-full bg-amber-500/10 flex items-center justify-center text-amber-400 text-xs mt-0.5 flex-shrink-0">3</div>
                 <div>
-                  <span className="text-earth-200 font-medium">Online via Zoom</span>
+                  <span className="text-earth-200 font-medium">Online via Google Meet</span>
                   <br />Live, interactive, small group (max 8 teens)
                 </div>
               </div>

@@ -68,7 +68,7 @@ Local mapping, ham radio, mutual aid, intergenerational skill sharing, private T
 - For Ages 13–17
 - Two-week program, Mondays & Fridays, 2 hours per session
 - July School Holidays and September School Holidays
-- Online via Zoom, max 8 teens
+- Online via Google Meet, max 8 teens
 - $395 per teen
 - Our trainers hold NDIS and Working with Children checks
 - Covers: Emergency preparedness, AI literacy & AI Agents, Basic first aid, Growing food, Digital hygiene, Community building, Trivium & Quadrivium, Side hustles & marketing basics, Confidence & resilience
