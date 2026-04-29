@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { useTheme } from '../ThemeContext';
 
 interface NavbarProps {
   onJoinClick: () => void;
@@ -7,6 +8,7 @@ interface NavbarProps {
 export default function Navbar({ onJoinClick }: NavbarProps) {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const { theme, toggle } = useTheme();
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
@@ -14,7 +16,6 @@ export default function Navbar({ onJoinClick }: NavbarProps) {
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
-  // Close menu on link click
   const handleNavClick = (id: string) => {
     setMenuOpen(false);
     const el = document.getElementById(id);
@@ -31,10 +32,11 @@ export default function Navbar({ onJoinClick }: NavbarProps) {
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        scrolled
-          ? 'bg-earth-950/80 backdrop-blur-xl border-b border-white/5'
-          : 'bg-transparent'
+        scrolled ? 'bg-earth-950/80 backdrop-blur-xl' : 'bg-transparent'
       }`}
+      style={{
+        borderBottom: scrolled ? '1px solid var(--card-border, rgba(255,255,255,0.05))' : 'none',
+      }}
     >
       <div className="max-w-[1400px] mx-auto px-4 sm:px-6 flex items-center justify-between h-16 md:h-20">
         <a href="#" className="flex items-center gap-2 group z-50">
@@ -57,12 +59,31 @@ export default function Navbar({ onJoinClick }: NavbarProps) {
               {link.label}
             </a>
           ))}
-          <button
-            onClick={onJoinClick}
-            className="px-4 py-2 bg-earth-100 text-earth-950 rounded-full text-xs font-medium hover:bg-earth-50 transition-all hover:scale-105 active:scale-[0.98] uppercase tracking-wider"
-          >
-            Join Waitlist
-          </button>
+          <div className="flex items-center gap-2">
+            <button
+              onClick={toggle}
+              className="w-8 h-8 flex items-center justify-center rounded-full text-earth-400 hover:text-earth-200 transition-all"
+              style={{ background: 'transparent' }}
+              aria-label="Toggle theme"
+              title={theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'}
+            >
+              {theme === 'dark' ? (
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4">
+                  <path d="M12 2.25a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75ZM7.5 12a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM18.894 6.166a.75.75 0 0 0-1.06-1.06l-1.591 1.59a.75.75 0 1 0 1.06 1.061l1.591-1.59ZM21.75 12a.75.75 0 0 1-.75.75h-2.25a.75.75 0 0 1 0-1.5H21a.75.75 0 0 1 .75.75ZM17.834 18.894a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 1 0-1.061 1.06l1.59 1.591ZM12 18a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-1.5 0v-2.25A.75.75 0 0 1 12 18ZM7.758 17.303a.75.75 0 0 0-1.061-1.06l-1.591 1.59a.75.75 0 0 0 1.06 1.061l1.591-1.59ZM6 12a.75.75 0 0 1-.75.75H3a.75.75 0 0 1 0-1.5h2.25A.75.75 0 0 1 6 12ZM6.697 7.757a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 0 0-1.061 1.06l1.59 1.591Z" />
+                </svg>
+              ) : (
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4">
+                  <path fillRule="evenodd" d="M9.528 1.718a.75.75 0 0 1 .162.819A8.97 8.97 0 0 0 9 6a9 9 0 0 0 9 9 8.97 8.97 0 0 0 3.463-.69.75.75 0 0 1 .981.98 10.503 10.503 0 0 1-9.694 6.46c-5.799 0-10.5-4.7-10.5-10.5 0-4.368 2.667-8.112 6.46-9.694a.75.75 0 0 1 .818.162Z" clipRule="evenodd" />
+                </svg>
+              )}
+            </button>
+            <button
+              onClick={onJoinClick}
+              className="px-4 py-2 bg-earth-100 text-earth-950 rounded-full text-xs font-medium hover:bg-earth-50 transition-all hover:scale-105 active:scale-[0.98] uppercase tracking-wider"
+            >
+              Join Waitlist
+            </button>
+          </div>
         </div>
 
         {/* Hamburger button (tablet & mobile) */}
@@ -112,6 +133,29 @@ export default function Navbar({ onJoinClick }: NavbarProps) {
             {link.label}
           </a>
         ))}
+        <button
+          onClick={() => {
+            setMenuOpen(false);
+            toggle();
+          }}
+          className="flex items-center gap-2 text-xl text-earth-300 hover:text-amber-300 transition-colors uppercase tracking-wider font-medium"
+        >
+          {theme === 'dark' ? (
+            <>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
+                <path d="M12 2.25a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75ZM7.5 12a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM18.894 6.166a.75.75 0 0 0-1.06-1.06l-1.591 1.59a.75.75 0 1 0 1.06 1.061l1.591-1.59ZM21.75 12a.75.75 0 0 1-.75.75h-2.25a.75.75 0 0 1 0-1.5H21a.75.75 0 0 1 .75.75ZM17.834 18.894a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 1 0-1.061 1.06l1.59 1.591ZM12 18a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-1.5 0v-2.25A.75.75 0 0 1 12 18ZM7.758 17.303a.75.75 0 0 0-1.061-1.06l-1.591 1.59a.75.75 0 0 0 1.06 1.061l1.591-1.59ZM6 12a.75.75 0 0 1-.75.75H3a.75.75 0 0 1 0-1.5h2.25A.75.75 0 0 1 6 12ZM6.697 7.757a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 0 0-1.061 1.06l1.59 1.591Z" />
+              </svg>
+              Light Mode
+            </>
+          ) : (
+            <>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
+                <path fillRule="evenodd" d="M9.528 1.718a.75.75 0 0 1 .162.819A8.97 8.97 0 0 0 9 6a9 9 0 0 0 9 9 8.97 8.97 0 0 0 3.463-.69.75.75 0 0 1 .981.98 10.503 10.503 0 0 1-9.694 6.46c-5.799 0-10.5-4.7-10.5-10.5 0-4.368 2.667-8.112 6.46-9.694a.75.75 0 0 1 .818.162Z" clipRule="evenodd" />
+              </svg>
+              Dark Mode
+            </>
+          )}
+        </button>
         <button
           onClick={() => {
             setMenuOpen(false);

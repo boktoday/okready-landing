@@ -1,5 +1,6 @@
 import { useRef } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { ThemeProvider } from './ThemeContext';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Pillars from './components/Pillars';
@@ -40,11 +41,12 @@ function LandingPage() {
 
 export default function App() {
   return (
-    <BrowserRouter>
-      <div className="relative min-h-[100dvh] overflow-hidden">
-        <div className="grain-overlay" />
-        <div className="fixed top-[-50vh] left-[-20vw] w-[70vw] h-[70vh] bg-earth-800/10 rounded-full blur-[120px] pointer-events-none" />
-        <div className="fixed bottom-[-30vh] right-[-10vw] w-[50vw] h-[50vh] bg-amber-800/5 rounded-full blur-[100px] pointer-events-none" />
+    <ThemeProvider>
+      <BrowserRouter>
+        <div className="relative min-h-[100dvh] overflow-hidden">
+          <div className="grain-overlay" />
+          <div className="fixed top-[-50vh] left-[-20vw] w-[70vw] h-[70vh] bg-earth-800/10 rounded-full blur-[120px] pointer-events-none" />
+          <div className="fixed bottom-[-30vh] right-[-10vw] w-[50vw] h-[50vh] bg-amber-800/5 rounded-full blur-[100px] pointer-events-none" />
         
         <Routes>
           <Route path="/" element={<LandingPage />} />
@@ -53,7 +55,8 @@ export default function App() {
           <Route path="/disclaimers" element={<Disclaimers />} />
           <Route path="/security" element={<Security />} />
         </Routes>
-      </div>
-    </BrowserRouter>
-  );
-}
+          </div>
+        </BrowserRouter>
+      </ThemeProvider>
+    );
+  }

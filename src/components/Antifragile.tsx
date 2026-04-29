@@ -116,8 +116,8 @@ export default function Antifragile() {
             className="w-full h-auto object-cover rounded-2xl"
             style={{ maxHeight: '500px' }}
           />
-          <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-[#141613]/80 via-[#141613]/40 to-transparent p-6 md:p-10">
-            <p className="text-sm text-earth-300 max-w-[50ch]">
+          <div className="absolute bottom-0 left-0 right-0 p-6 md:p-10" style={{ background: 'linear-gradient(to top, color-mix(in srgb, var(--bg-body) 80%, transparent), color-mix(in srgb, var(--bg-body) 40%, transparent) 60%, transparent)' }}>
+            <p className="text-sm max-w-[50ch]" style={{ color: 'var(--text-body)' }}>
               <span className="text-amber-400 font-semibold">Week 13:</span> Your first microgreens, sprouts and spirulina — ready to harvest in 4-10 days from an IKEA shelf. No backyard required.
             </p>
           </div>
@@ -131,8 +131,8 @@ export default function Antifragile() {
             className="w-full h-auto object-cover rounded-2xl"
             style={{ maxHeight: '500px' }}
           />
-          <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-[#141613]/80 via-[#141613]/40 to-transparent p-6 md:p-10">
-            <p className="text-sm text-earth-300 max-w-[50ch]">
+          <div className="absolute bottom-0 left-0 right-0 p-6 md:p-10" style={{ background: 'linear-gradient(to top, color-mix(in srgb, var(--bg-body) 80%, transparent), color-mix(in srgb, var(--bg-body) 40%, transparent) 60%, transparent)' }}>
+            <p className="text-sm max-w-[50ch]" style={{ color: 'var(--text-body)' }}>
               <span className="text-amber-400 font-semibold">Week 10:</span> Briefcase solar panel, water tarp and rain catchment — a weekend setup that starts cutting your bills immediately.
             </p>
           </div>
