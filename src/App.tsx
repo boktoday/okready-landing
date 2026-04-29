@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Pillars from './components/Pillars';
-import Curriculum from './components/Curriculum';
+{/* import Curriculum from './components/Curriculum'; */}
 import Antifragile from './components/Antifragile';
 import Pricing from './components/Pricing';
 import Coaching from './components/Coaching';
@@ -24,7 +24,7 @@ function LandingPage() {
       <Navbar onJoinClick={() => waitlistRef.current?.scrollIntoView({ behavior: 'smooth' })} />
       <Hero onJoinClick={() => waitlistRef.current?.scrollIntoView({ behavior: 'smooth' })} />
       <Pillars />
-      <Curriculum />
+      {/* <Curriculum /> */}
       <Antifragile />
       <Pricing onJoinClick={() => waitlistRef.current?.scrollIntoView({ behavior: 'smooth' })} />
       <Coaching onJoinClick={() => waitlistRef.current?.scrollIntoView({ behavior: 'smooth' })} />
