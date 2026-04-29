@@ -122,6 +122,21 @@ export default function Antifragile() {
             </p>
           </div>
         </div>
+
+        {/* Full-width image: Energy & Infrastructure setup */}
+        <div className="mt-16 relative rounded-2xl overflow-hidden">
+          <img
+            src="/images/okready-energy-hero.jpg"
+            alt="Australian backyard with briefcase solar panel, water collection tarp and rain barrel, outdoor setup for off-grid energy and water"
+            className="w-full h-auto object-cover rounded-2xl"
+            style={{ maxHeight: '500px' }}
+          />
+          <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-[#141613]/80 via-[#141613]/40 to-transparent p-6 md:p-10">
+            <p className="text-sm text-earth-300 max-w-[50ch]">
+              <span className="text-amber-400 font-semibold">Week 10:</span> Briefcase solar panel, water tarp and rain catchment — a weekend setup that starts cutting your bills immediately.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   );
