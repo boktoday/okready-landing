@@ -13,7 +13,7 @@ The OK Ready Antifragile System course is a one-time payment of **$79.99** (Earl
 - Full 24-week modular curriculum — 8 pillars of antifragility
 - AI Agent System — automated workflows & decision tools
 - Buying Guide — smart purchasing for resilience gear
-- Weekly online setup sessions with live Q&A
+- Weekly online sessions — curriculum summary, AI Agent system setup & troubleshooting
 - Starter Resource Library (books, templates, checklists)
 - Lifetime access — all future updates included
 - Afterpay payments available

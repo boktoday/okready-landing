@@ -160,9 +160,7 @@ export default function Pricing({ onJoinClick }: PricingProps) {
                 </div>
               </div>
               <p className="text-sm text-earth-400 leading-relaxed">
-                Every week, join a live online session where we walk through that week's module 
-                step by step — setup, configuration, and troubleshooting. Bring your questions 
-                for an open Q&A with the community and direct coaching support.
+                Every week, join a live online session where we summarise the curriculum step by step — AI Agent system setup, configuration, and troubleshooting. Bring your questions for an open Q&A with the community and technical support.
               </p>
             </div>
 
