@@ -118,7 +118,7 @@ export default function Antifragile() {
           />
           <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-[#141613]/80 via-[#141613]/40 to-transparent p-6 md:p-10">
             <p className="text-sm text-earth-300 max-w-[50ch]">
-              <span className="text-amber-400 font-semibold">Week 13:</span> Your first microgreens — ready to harvest in 10 days from an IKEA shelf. No backyard required.
+              <span className="text-amber-400 font-semibold">Week 13:</span> Your first microgreens, sprouts and spirulina — ready to harvest in 4-10 days from an IKEA shelf. No backyard required.
             </p>
           </div>
         </div>
