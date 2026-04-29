@@ -104,6 +104,21 @@ export default function TeensWorkshop({ onRegisterClick }: TeensWorkshopProps) {
             </div>
           </div>
         </div>
+
+        {/* Teens workshop image */}
+        <div className="mt-12 relative rounded-2xl overflow-hidden">
+          <img
+            src="/images/okready-teens-workshop.jpg"
+            alt="Teens learning practical skills together around a table with plants and laptops"
+            className="w-full h-auto object-cover rounded-2xl"
+            style={{ maxHeight: '420px' }}
+          />
+          <div className="absolute bottom-0 left-0 right-0 p-6 md:p-10" style={{ background: 'linear-gradient(to top, color-mix(in srgb, var(--bg-body) 80%, transparent), color-mix(in srgb, var(--bg-body) 40%, transparent) 60%, transparent)' }}>
+            <p className="text-sm max-w-[50ch]" style={{ color: 'var(--text-body)' }}>
+              <span className="text-amber-400 font-semibold">Hands-on, not theory.</span> Your teen learns real skills — AI safety, first aid, growing food, and building confidence — in a small group with trainers who care.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   );

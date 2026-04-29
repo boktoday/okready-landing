@@ -97,6 +97,21 @@ export default function Coaching({ onJoinClick }: CoachingProps) {
           ))}
         </div>
 
+        {/* Coaching image */}
+        <div className="mt-12 relative rounded-2xl overflow-hidden">
+          <img
+            src="/images/okready-coaching.jpg"
+            alt="One-on-one coaching session in a warm home office with notes, laptop, and plants"
+            className="w-full h-auto object-cover rounded-2xl"
+            style={{ maxHeight: '420px' }}
+          />
+          <div className="absolute bottom-0 left-0 right-0 p-6 md:p-10" style={{ background: 'linear-gradient(to top, color-mix(in srgb, var(--bg-body) 80%, transparent), color-mix(in srgb, var(--bg-body) 40%, transparent) 60%, transparent)' }}>
+            <p className="text-sm max-w-[50ch]" style={{ color: 'var(--text-body)' }}>
+              <span className="text-amber-400 font-semibold">Your coach, your timeline.</span> Weekly sessions tailored to your situation — from vulnerability assessment to full system implementation.
+            </p>
+          </div>
+        </div>
+
         <div className="mt-12 p-8 rounded-2xl border border-white/5 bg-white/[0.02]">
           <div className="flex items-start gap-4">
             <div className="w-10 h-10 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center flex-shrink-0">
