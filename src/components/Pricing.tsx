@@ -34,8 +34,8 @@ export default function Pricing({ onJoinClick }: PricingProps) {
           <div className="md:col-span-1">
             {/* Founder note */}
             <div className="mb-6 p-6 rounded-2xl border border-amber-500/10 bg-gradient-to-r from-amber-500/5 to-transparent flex items-start gap-5">
-              <div className="w-14 h-14 rounded-full bg-earth-700/30 border border-earth-600/20 flex-shrink-0 overflow-hidden flex items-center justify-center text-amber-300/60">
-                <img src="/images/silhouette.svg" alt="" className="w-10 h-10" />
+              <div className="w-14 h-14 rounded-full border border-earth-600/20 flex-shrink-0 overflow-hidden">
+                <img src="https://iam.aichampion.com.au/assets/brendan-okeefe-profile-cap-2026-compressed-BxhSLMkt.png" alt="Brendan O'Keefe" className="w-full h-full object-cover" />
               </div>
               <div>
                 <p className="text-sm text-earth-400 leading-relaxed italic">
