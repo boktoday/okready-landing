@@ -23,7 +23,7 @@ export default function Pricing({ onJoinClick }: PricingProps) {
           </h2>
           <p className="text-lg text-earth-400 leading-relaxed">
             Built for <strong className="text-amber-300">everyday people, not preppers</strong>. No prior experience needed. 
-            One payment. Full system. No subscriptions. Includes the AI Agent System, 
+            One payment. Full system. Includes the AI Agent System, 
             Buying Guide, and weekly live sessions — everything you need to build your 
             antifragile life from scratch.
           </p>
