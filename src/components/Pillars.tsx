@@ -88,6 +88,9 @@ export default function Pillars() {
             <span className="gradient-text">8 Pillars</span>{' '}
             <span className="text-earth-100">of Readiness</span>
           </h2>
+          <p className="text-base md:text-lg text-amber-300/80 font-medium mb-4">
+            8 Pillars of Readiness — Practical Life-Skills for the Age of AI and Disruption
+          </p>
           <p className="text-lg text-earth-400 leading-relaxed">
             A modular, beginner-focused system designed to be worked through at your own pace. 
             Each pillar builds on the last, but every module stands alone — start wherever you're most ready.
