@@ -130,67 +130,40 @@ export default function Pricing({ onJoinClick }: PricingProps) {
 
                 {/* Orbiting agents */}
                 {/* Top */}
-                <div className="absolute top-2 left-1/2 -translate-x-1/2 text-center">
+                <div className="absolute top-3 left-1/2 -translate-x-1/2 text-center">
                   <div className="w-16 h-16 rounded-full bg-earth-700/40 border border-amber-500/20 flex items-center justify-center mx-auto mb-1">
                     <span className="text-[9px] font-bold text-amber-300 leading-tight text-center">Onboarding<br/>Agent</span>
                   </div>
-                  <div className="text-[8px] text-earth-500 leading-tight">Gets you started</div>
+                  <div className="text-[8px] text-earth-500 leading-tight max-w-[80px]">Gets you started</div>
                 </div>
                 {/* Top Right */}
-                <div className="absolute top-[14%] right-2 text-center">
-                  <div className="w-14 h-14 rounded-full bg-earth-700/40 border border-emerald-500/20 flex items-center justify-center mx-auto mb-1">
-                    <span className="text-[9px] font-bold text-emerald-300 leading-tight text-center">Pillar<br/>Agent 1-4</span>
+                <div className="absolute top-[14%] right-1 text-center">
+                  <div className="w-16 h-16 rounded-full bg-earth-700/40 border border-emerald-500/20 flex items-center justify-center mx-auto mb-1">
+                    <span className="text-[9px] font-bold text-emerald-300 leading-tight text-center">Pillar<br/>Agent 01-04</span>
                   </div>
-                  <div className="text-[8px] text-earth-500 leading-tight">Deep expertise</div>
+                  <div className="text-[8px] text-earth-500 leading-tight max-w-[80px]">Autonomous support</div>
                 </div>
                 {/* Right */}
                 <div className="absolute top-1/2 -translate-y-1/2 right-0 text-center">
-                  <div className="w-14 h-14 rounded-full bg-earth-700/40 border border-cyan-500/20 flex items-center justify-center mx-auto mb-1">
-                    <span className="text-[9px] font-bold text-cyan-300 leading-tight text-center">Deep<br/>Coaching</span>
+                  <div className="w-16 h-16 rounded-full bg-earth-700/40 border border-cyan-500/20 flex items-center justify-center mx-auto mb-1">
+                    <span className="text-[9px] font-bold text-cyan-300 leading-tight text-center">Pillar<br/>Agent 05-08</span>
                   </div>
-                  <div className="text-[8px] text-earth-500 leading-tight">$1,500/mo</div>
-                </div>
-                {/* Bottom Right */}
-                <div className="absolute bottom-[14%] right-2 text-center">
-                  <div className="w-14 h-14 rounded-full bg-earth-700/40 border border-purple-500/20 flex items-center justify-center mx-auto mb-1">
-                    <span className="text-[9px] font-bold text-purple-300 leading-tight text-center">Complete<br/>Guidance</span>
-                  </div>
-                  <div className="text-[8px] text-earth-500 leading-tight">$6,000/mo</div>
-                </div>
-                {/* Bottom */}
-                <div className="absolute bottom-2 left-1/2 -translate-x-1/2 text-center">
-                  <div className="w-16 h-16 rounded-full bg-earth-700/40 border border-amber-500/20 flex items-center justify-center mx-auto mb-1">
-                    <span className="text-[9px] font-bold text-amber-300 leading-tight text-center">Teens<br/>Coach</span>
-                  </div>
-                  <div className="text-[8px] text-earth-500 leading-tight">Workshop</div>
-                </div>
-                {/* Bottom Left */}
-                <div className="absolute bottom-[14%] left-2 text-center">
-                  <div className="w-14 h-14 rounded-full bg-earth-700/40 border border-emerald-500/20 flex items-center justify-center mx-auto mb-1">
-                    <span className="text-[9px] font-bold text-emerald-300 leading-tight text-center">Educator<br/>Agent</span>
-                  </div>
-                  <div className="text-[8px] text-earth-500 leading-tight">Institutions</div>
-                </div>
-                {/* Left */}
-                <div className="absolute top-1/2 -translate-y-1/2 left-0 text-center">
-                  <div className="w-14 h-14 rounded-full bg-earth-700/40 border border-cyan-500/20 flex items-center justify-center mx-auto mb-1">
-                    <span className="text-[9px] font-bold text-cyan-300 leading-tight text-center">Pillar<br/>Agent 5-8</span>
-                  </div>
-                  <div className="text-[8px] text-earth-500 leading-tight">Deep expertise</div>
+                  <div className="text-[8px] text-earth-500 leading-tight max-w-[80px]">Autonomous support</div>
                 </div>
                 {/* Top Left */}
-                <div className="absolute top-[14%] left-2 text-center">
-                  <div className="w-14 h-14 rounded-full bg-earth-700/40 border border-purple-500/20 flex items-center justify-center mx-auto mb-1">
-                    <span className="text-[9px] font-bold text-purple-300 leading-tight text-center">Prompt<br/>Library</span>
+                <div className="absolute top-[14%] left-1 text-center">
+                  <div className="w-16 h-16 rounded-full bg-earth-700/40 border border-purple-500/20 flex items-center justify-center mx-auto mb-1">
+                    <span className="text-[9px] font-bold text-purple-300 leading-tight text-center">Pillar<br/>Coach</span>
                   </div>
-                  <div className="text-[8px] text-earth-500 leading-tight">Pre-built</div>
+                  <div className="text-[8px] text-earth-500 leading-tight max-w-[80px]">Orchestrator</div>
                 </div>
               </div>
 
               <p className="text-xs text-earth-500 text-center mt-4 max-w-[45ch] mx-auto leading-relaxed">
-                <strong className="text-amber-300">Pillar Coach</strong> orchestrates 7 specialized AI agents — 
-                from onboarding to deep coaching. Each agent is pre-configured with expert knowledge 
-                and ready to guide you through every pillar of the system.
+                <strong className="text-amber-300">Pillar Coach</strong> orchestrates everything — routing you to the right agent.
+                The <strong className="text-emerald-300">Onboarding Agent</strong> assesses your starting point, and 
+                <strong className="text-cyan-300"> 8 Pillar Agents</strong> provide deep expertise with autonomous support
+                throughout your journey.
               </p>
             </div>
           </div>
