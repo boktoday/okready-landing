@@ -17,11 +17,11 @@ export default function Pricing({ onJoinClick }: PricingProps) {
     <section id="pricing" className="py-24 md:py-32">
       <div className="max-w-[1400px] mx-auto px-6">
         <div className="max-w-[65ch] mb-16">
-          <h2 className="text-3xl md:text-5xl font-bold tracking-tighter mb-6">
+          <h2 className="text-3xl md:text-5xl font-bold tracking-tighter mb-4">
             <span className="gradient-text">Lifetime Access</span>{' '}
             <span className="text-earth-100">from $79.99</span>
           </h2>
-          <p className="text-lg text-earth-400 leading-relaxed">
+          <p className="text-base md:text-lg text-earth-400 leading-relaxed">
             Built for <strong className="text-amber-300">everyday people, not preppers</strong>. No prior experience needed. 
             One payment. Full system. Includes the AI Agent System, 
             Buying Guide, and weekly live sessions — everything you need to build your 
@@ -29,16 +29,16 @@ export default function Pricing({ onJoinClick }: PricingProps) {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-2 gap-4 md:gap-6">
           {/* Left column — Founder note on mobile, above card */}
           <div className="md:col-span-1">
             {/* Founder note */}
-            <div className="mb-6 p-6 rounded-2xl border border-amber-500/10 bg-gradient-to-r from-amber-500/5 to-transparent flex items-start gap-5">
-              <div className="w-14 h-14 rounded-full border border-earth-600/20 flex-shrink-0 overflow-hidden">
+            <div className="mb-4 p-4 md:p-5 rounded-2xl border border-amber-500/10 bg-gradient-to-r from-amber-500/5 to-transparent flex items-start gap-3">
+              <div className="w-10 h-10 rounded-full border border-earth-600/20 flex-shrink-0 overflow-hidden">
                 <img src="https://iam.aichampion.com.au/assets/brendan-okeefe-profile-cap-2026-compressed-BxhSLMkt.png" alt="Brendan O'Keefe" className="w-full h-full object-cover" />
               </div>
               <div>
-                <p className="text-sm text-earth-400 leading-relaxed italic">
+                <p className="text-xs text-earth-400 leading-relaxed italic">
                   "I've spent years testing, failing at, and refining these systems — so you don't have to. 
                   I had to figure out what works. You just get the playbook."
                 </p>
@@ -49,7 +49,7 @@ export default function Pricing({ onJoinClick }: PricingProps) {
             </div>
 
             {/* Pricing card */}
-            <div className="p-8 md:p-10 rounded-3xl border border-amber-500/20 bg-gradient-to-b from-amber-500/5 to-transparent glow-amber h-full flex flex-col relative">
+            <div className="p-6 md:p-8 rounded-3xl border border-amber-500/20 bg-gradient-to-b from-amber-500/5 to-transparent glow-amber h-full flex flex-col relative">
               {/* Early Bird badge */}
               <div className="absolute -top-3 right-6 px-3 py-1 bg-gradient-to-r from-amber-500 to-emerald-500 rounded-full text-xs text-earth-950 font-bold uppercase tracking-wider shadow-lg shadow-amber-500/20">
                 Early Bird
@@ -106,7 +106,7 @@ export default function Pricing({ onJoinClick }: PricingProps) {
 
           {/* Right column — AI Agents Ecosystem */}
           <div className="md:col-span-1">
-            <div className="p-8 md:p-10 rounded-3xl border border-amber-500/20 bg-gradient-to-b from-amber-500/5 to-transparent h-full flex flex-col items-center justify-center min-h-[400px]">
+            <div className="p-6 md:p-8 rounded-3xl border border-amber-500/20 bg-gradient-to-b from-amber-500/5 to-transparent h-full flex flex-col items-center justify-center min-h-[360px]">
               <img
                 src="/images/australia-family.jpg"
                 alt="Australian family with map of Australia"
