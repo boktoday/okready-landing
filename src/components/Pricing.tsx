@@ -108,79 +108,89 @@ export default function Pricing({ onJoinClick }: PricingProps) {
           <div className="md:col-span-1">
             <div className="p-8 md:p-10 rounded-3xl border border-amber-500/20 bg-gradient-to-b from-amber-500/5 to-transparent h-full flex flex-col">
               <div className="text-xs font-semibold tracking-[0.2em] text-amber-400 uppercase mb-6 text-center">
-                AI Agents Ecosystem
+                Your Personal AI Agent Ecosystem
               </div>
 
               {/* Central circle diagram */}
-              <div className="relative flex-1 flex items-center justify-center min-h-[400px]">
+              <div className="relative flex-1 flex items-center justify-center min-h-[460px]">
                 {/* Orbital ring SVGs */}
                 <svg className="absolute inset-0 w-full h-full pointer-events-none" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet">
-                  <circle cx="50" cy="50" r="35" fill="none" stroke="rgba(251,191,36,0.10)" strokeWidth="0.4" />
-                  <circle cx="50" cy="50" r="25" fill="none" stroke="rgba(52,211,153,0.08)" strokeWidth="0.3" />
+                  <circle cx="50" cy="50" r="36" fill="none" stroke="rgba(251,191,36,0.10)" strokeWidth="0.4" />
+                  <circle cx="50" cy="50" r="24" fill="none" stroke="rgba(52,211,153,0.08)" strokeWidth="0.3" />
                 </svg>
 
-                {/* Center nucleus */}
+                {/* Center nucleus — Orchestrator */}
                 <div className="absolute w-28 h-28 rounded-full bg-gradient-to-br from-amber-500 to-emerald-500 flex items-center justify-center z-10 shadow-lg shadow-amber-500/20">
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-earth-950 leading-none">OK Ready</div>
-                    <div className="text-[10px] font-semibold text-earth-950/80">AI Ecosystem</div>
+                    <div className="text-lg font-bold text-earth-950 leading-tight">Pillar</div>
+                    <div className="text-lg font-bold text-earth-950 leading-tight">Coach</div>
+                    <div className="text-[9px] font-semibold text-earth-950/80">Orchestrator</div>
                   </div>
                 </div>
 
-                {/* Orbiting nodes */}
+                {/* Orbiting agents */}
                 {/* Top */}
-                <div className="absolute top-3 left-1/2 -translate-x-1/2 text-center">
+                <div className="absolute top-2 left-1/2 -translate-x-1/2 text-center">
                   <div className="w-16 h-16 rounded-full bg-earth-700/40 border border-amber-500/20 flex items-center justify-center mx-auto mb-1">
-                    <span className="text-[10px] font-bold text-amber-300 leading-tight text-center">AI Agent<br/>System</span>
+                    <span className="text-[9px] font-bold text-amber-300 leading-tight text-center">Onboarding<br/>Agent</span>
                   </div>
+                  <div className="text-[8px] text-earth-500 leading-tight">Gets you started</div>
                 </div>
                 {/* Top Right */}
-                <div className="absolute top-[18%] right-3 text-center">
+                <div className="absolute top-[14%] right-2 text-center">
                   <div className="w-14 h-14 rounded-full bg-earth-700/40 border border-emerald-500/20 flex items-center justify-center mx-auto mb-1">
-                    <span className="text-[9px] font-bold text-emerald-300 leading-tight text-center">Buying<br/>Guide</span>
+                    <span className="text-[9px] font-bold text-emerald-300 leading-tight text-center">Pillar<br/>Agent 1-4</span>
                   </div>
+                  <div className="text-[8px] text-earth-500 leading-tight">Deep expertise</div>
                 </div>
                 {/* Right */}
-                <div className="absolute top-1/2 -translate-y-1/2 right-1 text-center">
+                <div className="absolute top-1/2 -translate-y-1/2 right-0 text-center">
                   <div className="w-14 h-14 rounded-full bg-earth-700/40 border border-cyan-500/20 flex items-center justify-center mx-auto mb-1">
-                    <span className="text-[9px] font-bold text-cyan-300 leading-tight text-center">Weekly<br/>Sessions</span>
+                    <span className="text-[9px] font-bold text-cyan-300 leading-tight text-center">Deep<br/>Coaching</span>
                   </div>
+                  <div className="text-[8px] text-earth-500 leading-tight">$1,500/mo</div>
                 </div>
                 {/* Bottom Right */}
-                <div className="absolute bottom-[18%] right-3 text-center">
+                <div className="absolute bottom-[14%] right-2 text-center">
                   <div className="w-14 h-14 rounded-full bg-earth-700/40 border border-purple-500/20 flex items-center justify-center mx-auto mb-1">
-                    <span className="text-[9px] font-bold text-purple-300 leading-tight text-center">Resource<br/>Library</span>
+                    <span className="text-[9px] font-bold text-purple-300 leading-tight text-center">Complete<br/>Guidance</span>
                   </div>
+                  <div className="text-[8px] text-earth-500 leading-tight">$6,000/mo</div>
                 </div>
                 {/* Bottom */}
-                <div className="absolute bottom-3 left-1/2 -translate-x-1/2 text-center">
+                <div className="absolute bottom-2 left-1/2 -translate-x-1/2 text-center">
                   <div className="w-16 h-16 rounded-full bg-earth-700/40 border border-amber-500/20 flex items-center justify-center mx-auto mb-1">
-                    <span className="text-[10px] font-bold text-amber-300 leading-tight text-center">24-Week<br/>Curriculum</span>
+                    <span className="text-[9px] font-bold text-amber-300 leading-tight text-center">Teens<br/>Coach</span>
                   </div>
+                  <div className="text-[8px] text-earth-500 leading-tight">Workshop</div>
                 </div>
                 {/* Bottom Left */}
-                <div className="absolute bottom-[18%] left-3 text-center">
+                <div className="absolute bottom-[14%] left-2 text-center">
                   <div className="w-14 h-14 rounded-full bg-earth-700/40 border border-emerald-500/20 flex items-center justify-center mx-auto mb-1">
-                    <span className="text-[9px] font-bold text-emerald-300 leading-tight text-center">AI Agent<br/>Prompts</span>
+                    <span className="text-[9px] font-bold text-emerald-300 leading-tight text-center">Educator<br/>Agent</span>
                   </div>
+                  <div className="text-[8px] text-earth-500 leading-tight">Institutions</div>
                 </div>
                 {/* Left */}
-                <div className="absolute top-1/2 -translate-y-1/2 left-1 text-center">
+                <div className="absolute top-1/2 -translate-y-1/2 left-0 text-center">
                   <div className="w-14 h-14 rounded-full bg-earth-700/40 border border-cyan-500/20 flex items-center justify-center mx-auto mb-1">
-                    <span className="text-[9px] font-bold text-cyan-300 leading-tight text-center">Lifetime<br/>Updates</span>
+                    <span className="text-[9px] font-bold text-cyan-300 leading-tight text-center">Pillar<br/>Agent 5-8</span>
                   </div>
+                  <div className="text-[8px] text-earth-500 leading-tight">Deep expertise</div>
                 </div>
                 {/* Top Left */}
-                <div className="absolute top-[18%] left-3 text-center">
+                <div className="absolute top-[14%] left-2 text-center">
                   <div className="w-14 h-14 rounded-full bg-earth-700/40 border border-purple-500/20 flex items-center justify-center mx-auto mb-1">
-                    <span className="text-[9px] font-bold text-purple-300 leading-tight text-center">Checklists<br/>&amp; Tools</span>
+                    <span className="text-[9px] font-bold text-purple-300 leading-tight text-center">Prompt<br/>Library</span>
                   </div>
+                  <div className="text-[8px] text-earth-500 leading-tight">Pre-built</div>
                 </div>
               </div>
 
-              <p className="text-xs text-earth-500 text-center mt-4 max-w-[40ch] mx-auto leading-relaxed">
-                Everything connects. The AI Agent System orchestrates across curriculum, buying guide, 
-                weekly sessions, and checklists — giving you a complete, integrated ecosystem.
+              <p className="text-xs text-earth-500 text-center mt-4 max-w-[45ch] mx-auto leading-relaxed">
+                <strong className="text-amber-300">Pillar Coach</strong> orchestrates 7 specialized AI agents — 
+                from onboarding to deep coaching. Each agent is pre-configured with expert knowledge 
+                and ready to guide you through every pillar of the system.
               </p>
             </div>
           </div>
