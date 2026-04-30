@@ -14,7 +14,7 @@ export default function Footer() {
               <span className="text-sm font-medium text-earth-300">OK Ready Australia</span>
             </div>
             <p className="text-sm text-earth-500 leading-relaxed max-w-[40ch]">
-              A 24-week modular system for building genuine antifragility — 
+              A 24-week self-paced modular system for building genuine antifragility — 
               the OK Ready Mindset meets a Self-Sufficiency System that gets stronger through volatility.
             </p>
           </div>

@@ -4,7 +4,7 @@ interface PricingProps {
 
 export default function Pricing({ onJoinClick }: PricingProps) {
   const features = [
-    "24-week modular curriculum — 8 pillars of antifragility",
+    "24-week self-paced modular curriculum — 8 pillars of antifragility",
     "AI Agent System — automated workflows & decision tools",
     "Buying Guide — smart purchasing for resilience gear & tools",
     "Weekly online setup sessions with live Q&A",
