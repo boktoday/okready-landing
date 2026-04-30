@@ -29,7 +29,7 @@ function LandingPage() {
       <Antifragile />
       <Pricing onJoinClick={() => waitlistRef.current?.scrollIntoView({ behavior: 'smooth' })} />
       <Coaching onJoinClick={() => waitlistRef.current?.scrollIntoView({ behavior: 'smooth' })} />
-      <TeensWorkshop onRegisterClick={() => waitlistRef.current?.scrollIntoView({ behavior: 'smooth' })} />
+      <TeensWorkshop />
       <div ref={waitlistRef}>
         <Waitlist />
       </div>

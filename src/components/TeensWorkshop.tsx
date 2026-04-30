@@ -1,8 +1,4 @@
-interface TeensWorkshopProps {
-  onRegisterClick: () => void;
-}
-
-export default function TeensWorkshop({ onRegisterClick }: TeensWorkshopProps) {
+export default function TeensWorkshop() {
   return (
     <section id="teens-workshop" className="py-24 md:py-32">
       <div className="max-w-[1400px] mx-auto px-6">
@@ -95,12 +91,14 @@ export default function TeensWorkshop({ onRegisterClick }: TeensWorkshopProps) {
               <p className="text-xs text-earth-500 mb-6">
                 All materials provided digitally. Just need a computer or tablet with internet.
               </p>
-              <button
-                onClick={onRegisterClick}
-                className="w-full py-3 px-6 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 text-earth-950 font-semibold text-sm hover:from-amber-400 hover:to-amber-500 transition-all duration-300"
+              <a
+                href="https://square.link/u/CxZUUBOw"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block w-full py-3 px-6 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 text-earth-950 font-semibold text-sm hover:from-amber-400 hover:to-amber-500 transition-all duration-300 text-center"
               >
                 Register Now
-              </button>
+              </a>
             </div>
           </div>
         </div>
