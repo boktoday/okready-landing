@@ -108,7 +108,7 @@ export default function Pricing({ onJoinClick }: PricingProps) {
           <div className="md:col-span-1">
             <div className="p-8 md:p-10 rounded-3xl border border-amber-500/20 bg-gradient-to-b from-amber-500/5 to-transparent h-full flex flex-col items-center justify-center min-h-[400px]">
               <img
-                src="https://iam.aichampion.com.au/assets/okready-australia-family-v4-Bk_RfBxp.png"
+                src="/images/australia-family.jpg"
                 alt="Australian family with map of Australia"
                 className="w-full max-w-[320px] h-auto object-contain rounded-2xl"
               />
