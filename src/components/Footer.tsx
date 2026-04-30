@@ -66,7 +66,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-6 text-center">
-          <p className="text-xs text-earth-600/60 italic">
+          <p className="text-xs text-earth-600 italic">
             ✝ Be on your guard; stand firm in the faith; be courageous; be strong. — 1&nbsp;Corinthians&nbsp;16:13
           </p>
         </div>
