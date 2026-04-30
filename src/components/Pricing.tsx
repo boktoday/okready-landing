@@ -106,64 +106,14 @@ export default function Pricing({ onJoinClick }: PricingProps) {
 
           {/* Right column — AI Agents Ecosystem */}
           <div className="md:col-span-1">
-            <div className="p-8 md:p-10 rounded-3xl border border-amber-500/20 bg-gradient-to-b from-amber-500/5 to-transparent h-full flex flex-col">
-              <div className="text-xs font-semibold tracking-[0.2em] text-amber-400 uppercase mb-6 text-center">
-                Your Personal AI Agent Ecosystem
-              </div>
-
-              {/* Central circle diagram */}
-              <div className="relative flex-1 flex items-center justify-center min-h-[460px]">
-                {/* Orbital ring SVGs */}
-                <svg className="absolute inset-0 w-full h-full pointer-events-none" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet">
-                  <circle cx="50" cy="50" r="36" fill="none" stroke="rgba(251,191,36,0.10)" strokeWidth="0.4" />
-                  <circle cx="50" cy="50" r="24" fill="none" stroke="rgba(52,211,153,0.08)" strokeWidth="0.3" />
-                </svg>
-
-                {/* Center nucleus — Orchestrator */}
-                <div className="absolute w-28 h-28 rounded-full bg-gradient-to-br from-amber-500 to-emerald-500 flex items-center justify-center z-10 shadow-lg shadow-amber-500/20">
-                  <div className="text-center">
-                    <div className="text-lg font-bold text-earth-950 leading-tight">Pillar</div>
-                    <div className="text-lg font-bold text-earth-950 leading-tight">Coach</div>
-                    <div className="text-[9px] font-semibold text-earth-950/80">Orchestrator</div>
-                  </div>
-                </div>
-
-                {/* Orbiting agents */}
-                {/* Top */}
-                <div className="absolute top-3 left-1/2 -translate-x-1/2 text-center">
-                  <div className="w-16 h-16 rounded-full bg-earth-700/40 border border-amber-500/20 flex items-center justify-center mx-auto mb-1">
-                    <span className="text-[9px] font-bold text-amber-300 leading-tight text-center">Onboarding<br/>Agent</span>
-                  </div>
-                  <div className="text-[8px] text-earth-500 leading-tight max-w-[80px]">Gets you started</div>
-                </div>
-                {/* Top Right */}
-                <div className="absolute top-[14%] right-1 text-center">
-                  <div className="w-16 h-16 rounded-full bg-earth-700/40 border border-emerald-500/20 flex items-center justify-center mx-auto mb-1">
-                    <span className="text-[9px] font-bold text-emerald-300 leading-tight text-center">Pillar<br/>Agent 01-04</span>
-                  </div>
-                  <div className="text-[8px] text-earth-500 leading-tight max-w-[80px]">Autonomous support</div>
-                </div>
-                {/* Right */}
-                <div className="absolute top-1/2 -translate-y-1/2 right-0 text-center">
-                  <div className="w-16 h-16 rounded-full bg-earth-700/40 border border-cyan-500/20 flex items-center justify-center mx-auto mb-1">
-                    <span className="text-[9px] font-bold text-cyan-300 leading-tight text-center">Pillar<br/>Agent 05-08</span>
-                  </div>
-                  <div className="text-[8px] text-earth-500 leading-tight max-w-[80px]">Autonomous support</div>
-                </div>
-                {/* Top Left */}
-                <div className="absolute top-[14%] left-1 text-center">
-                  <div className="w-16 h-16 rounded-full bg-earth-700/40 border border-purple-500/20 flex items-center justify-center mx-auto mb-1">
-                    <span className="text-[9px] font-bold text-purple-300 leading-tight text-center">Pillar<br/>Coach</span>
-                  </div>
-                  <div className="text-[8px] text-earth-500 leading-tight max-w-[80px]">Orchestrator</div>
-                </div>
-              </div>
-
-              <p className="text-xs text-earth-500 text-center mt-4 max-w-[45ch] mx-auto leading-relaxed">
-                <strong className="text-amber-300">Pillar Coach</strong> orchestrates everything — routing you to the right agent.
-                The <strong className="text-emerald-300">Onboarding Agent</strong> assesses your starting point, and 
-                <strong className="text-cyan-300"> 8 Pillar Agents</strong> provide deep expertise with autonomous support
-                throughout your journey.
+            <div className="p-8 md:p-10 rounded-3xl border border-amber-500/20 bg-gradient-to-b from-amber-500/5 to-transparent h-full flex flex-col items-center justify-center min-h-[400px]">
+              <img
+                src="https://iam.aichampion.com.au/assets/okready-australia-family-v4-Bk_RfBxp.png"
+                alt="Australian family with map of Australia"
+                className="w-full max-w-[320px] h-auto object-contain rounded-2xl"
+              />
+              <p className="text-xs text-earth-500 text-center mt-4 max-w-[30ch] leading-relaxed">
+                Built for Australian families. Real skills. Real resilience. No fluff.
               </p>
             </div>
           </div>
