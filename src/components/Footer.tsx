@@ -64,6 +64,12 @@ export default function Footer() {
             <Link to="/security" className="text-xs text-earth-500 hover:text-earth-300 transition-colors">Security</Link>
           </div>
         </div>
+
+        <div className="mt-6 text-center">
+          <p className="text-xs text-earth-600/60 leading-relaxed italic max-w-[55ch] mx-auto">
+            ✝ Be on your guard; stand firm in the faith; be courageous; be strong. — 1&nbsp;Corinthians&nbsp;16:13
+          </p>
+        </div>
       </div>
     </footer>
   );
