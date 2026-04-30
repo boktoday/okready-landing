@@ -69,32 +69,32 @@ export default function Pricing({ onJoinClick }: PricingProps) {
                 </div>
               </div>
 
-              <div className="flex-1 space-y-3 mb-8">
+              <div className="flex-1 space-y-2 mb-4">
                 {features.map((f) => (
                   <div key={f} className="flex items-start gap-3">
-                    <svg className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <svg className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-sm text-earth-300">{f}</span>
+                    <span className="text-xs text-earth-300">{f}</span>
                   </div>
                 ))}
               </div>
 
               <button
                 onClick={onJoinClick}
-                className="w-full px-6 py-3.5 bg-amber-500/20 border border-amber-500/30 text-amber-300 rounded-xl text-sm font-semibold hover:bg-amber-500/30 hover:text-amber-200 transition-all hover:scale-[1.02] active:scale-[0.98]"
+                className="w-full px-6 py-3 bg-amber-500/20 border border-amber-500/30 text-amber-300 rounded-xl text-sm font-semibold hover:bg-amber-500/30 hover:text-amber-200 transition-all hover:scale-[1.02] active:scale-[0.98]"
               >
                 Join the Waitlist
               </button>
 
-              <div className="mt-4 flex items-center justify-center gap-2 text-xs text-earth-500">
-                <svg className="w-4 h-4 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <div className="mt-3 flex items-center justify-center gap-2 text-xs text-earth-500">
+                <svg className="w-3.5 h-3.5 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
                 7-day money back guarantee — no questions asked
               </div>
 
-              <div className="mt-3 pt-3 border-t border-white/5 flex items-center justify-center gap-2 text-xs">
+              <div className="mt-2 pt-2 border-t border-white/5 flex items-center justify-center gap-2 text-xs">
                 <svg className="w-3.5 h-3.5 text-emerald-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 100 4 2 2 0 000-4z" />
                 </svg>
