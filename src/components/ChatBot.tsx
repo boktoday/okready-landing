@@ -56,14 +56,15 @@ function findAnswer(query: string, knowledge: string): string {
 
   // Extract the most relevant paragraph(s)
   const lines = best.section.split('\n').filter(l => l.trim());
-  const relevant = lines.slice(0, 8).join('\n').trim();
+  const relevant = lines.slice(0, 15).join('\n').trim();
   
   // If the best match is just a heading, grab the next line too
   if (relevant.startsWith('###') || relevant.startsWith('##')) {
     return relevant;
   }
 
-  return relevant.length > 600 ? relevant.slice(0, 600) + '...' : relevant;
+  // Allow up to 3000 characters for full pillar descriptions
+  return relevant.length > 3000 ? relevant.slice(0, 3000) + '...' : relevant;
 }
 
 export default function ChatBot() {
