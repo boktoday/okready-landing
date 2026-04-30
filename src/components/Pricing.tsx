@@ -110,7 +110,7 @@ export default function Pricing({ onJoinClick }: PricingProps) {
               <img
                 src="/images/australia-family.jpg"
                 alt="Australian family with map of Australia"
-                className="w-full max-w-[400px] h-auto object-contain rounded-2xl"
+                className="w-full max-w-[500px] h-auto object-contain rounded-2xl"
               />
               <p className="text-xs text-earth-500 text-center mt-4 max-w-[30ch] leading-relaxed">
                 Built for Australian families. Real skills. Real resilience. No fluff.
