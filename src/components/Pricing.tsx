@@ -80,6 +80,10 @@ export default function Pricing({ onJoinClick }: PricingProps) {
                 ))}
               </div>
 
+              <div className="mb-3 text-center">
+                <span className="text-xs text-amber-400 font-medium">Waitlist only — lock in the pricing. No payment required today.</span>
+              </div>
+
               <button
                 onClick={onJoinClick}
                 className="w-full px-6 py-3 bg-amber-500/20 border border-amber-500/30 text-amber-300 rounded-xl text-sm font-semibold hover:bg-amber-500/30 hover:text-amber-200 transition-all hover:scale-[1.02] active:scale-[0.98]"
