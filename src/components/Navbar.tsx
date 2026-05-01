@@ -39,9 +39,9 @@ export default function Navbar({ onJoinClick }: NavbarProps) {
         borderBottom: scrolled ? '1px solid var(--card-border, rgba(255,255,255,0.05))' : 'none',
       }}
     >
-      <div className="max-w-[1400px] mx-auto px-4 sm:px-6 flex items-center justify-between h-16 md:h-20">
+      <div className="max-w-[1400px] mx-auto px-4 sm:px-6 flex items-center justify-between h-24 md:h-28">
         <a href="#" className="flex items-center gap-2 group z-50">
-          <div className="w-8 h-8 flex-shrink-0">
+          <div className="w-16 h-16 flex-shrink-0">
             <img src="/images/ok-ready-logo.png" alt="OK Ready" className="w-full h-full object-contain" />
           </div>
           <span className="text-sm sm:text-base font-medium text-earth-200 group-hover:text-earth-50 transition-colors hidden xs:block">
