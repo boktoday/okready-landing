@@ -69,7 +69,7 @@ export default function Pricing({ onJoinClick }: PricingProps) {
                 </div>
               </div>
 
-              <div className="flex-1 space-y-1.5 mb-2">
+              <div className="flex-1 space-y-1 mb-1">
                 {features.map((f) => (
                   <div key={f} className="flex items-start gap-3">
                     <svg className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
