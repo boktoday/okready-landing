@@ -69,7 +69,7 @@ export default function Pricing({ onJoinClick }: PricingProps) {
                 </div>
               </div>
 
-              <div className="flex-1 space-y-1 mb-1">
+              <div className="space-y-1 mb-0">
                 {features.map((f) => (
                   <div key={f} className="flex items-start gap-3">
                     <svg className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -82,7 +82,7 @@ export default function Pricing({ onJoinClick }: PricingProps) {
 
               <button
                 onClick={onJoinClick}
-                className="w-full px-6 py-3 bg-amber-500/20 border border-amber-500/30 text-amber-300 rounded-xl text-sm font-semibold hover:bg-amber-500/30 hover:text-amber-200 transition-all hover:scale-[1.02] active:scale-[0.98]"
+                className="w-full px-6 py-2.5 bg-amber-500/20 border border-amber-500/30 text-amber-300 rounded-xl text-sm font-semibold hover:bg-amber-500/30 hover:text-amber-200 transition-all hover:scale-[1.02] active:scale-[0.98]"
               >
                 Join the Waitlist
               </button>
