@@ -4,7 +4,7 @@
 OK Ready Australia offers a 24-week modular curriculum called the Antifragile System. It's designed for beginners — no prior experience needed. The system covers 8 Pillars of Readiness that help everyday Australians build genuine antifragility through modern self-sufficiency.
 
 ## Current Status
-Publishing May 2026. Currently accepting free waitlist signups.
+Publishing Mid May 2026. Currently accepting free waitlist signups.
 
 ## Pricing — How Much Does the Course Cost?
 The OK Ready Antifragile System course is a one-time payment of **$79.99** (Early Bird price, going up to **$99.99** in June). There are no subscriptions or recurring fees. This gives you lifetime access to the full 24-week modular curriculum, all 8 Pillars of Readiness, and all future updates.

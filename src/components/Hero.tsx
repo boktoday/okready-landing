@@ -14,7 +14,7 @@ export default function Hero({ onJoinClick }: HeroProps) {
           <div className="relative z-10">
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-white/5 bg-white/[0.02] text-xs text-earth-400 mb-8 tracking-wider uppercase">
               <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse-glow" />
-              Publishing May 2026
+              Publishing Mid May 2026
             </div>
 
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tighter leading-[0.92] mb-6">
