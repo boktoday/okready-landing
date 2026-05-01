@@ -68,6 +68,9 @@ export default function Waitlist() {
 
       <div className="max-w-[650px] mx-auto px-6 relative">
         <div className="text-center mb-10">
+          <div className="w-16 h-16 mx-auto mb-5">
+            <img src="/images/ok-ready-logo.png" alt="OK Ready" className="w-full h-full object-contain" />
+          </div>
           <h2 className="text-3xl md:text-5xl font-bold tracking-tighter mb-4">
             <span className="gradient-text">Join the</span>{' '}
             <span className="text-earth-100">Waitlist</span>

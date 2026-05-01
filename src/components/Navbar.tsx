@@ -42,20 +42,7 @@ export default function Navbar({ onJoinClick }: NavbarProps) {
       <div className="max-w-[1400px] mx-auto px-4 sm:px-6 flex items-center justify-between h-16 md:h-20">
         <a href="#" className="flex items-center gap-2 group z-50">
           <div className="w-8 h-8 flex-shrink-0">
-            <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
-              <defs>
-                <linearGradient id="logo-grad" x1="0" y1="0" x2="1" y2="1">
-                  <stop offset="0%" stopColor="#fbbf24" />
-                  <stop offset="100%" stopColor="#34d399" />
-                </linearGradient>
-              </defs>
-              {/* Shield shape */}
-              <path d="M16 2 L28 8 L28 16 C28 23 23 28 16 30 C9 28 4 23 4 16 L4 8 Z"
-                    fill="url(#logo-grad)" />
-              {/* Checkmark */}
-              <path d="M10 16 L14 21 L22 11"
-                    stroke="#141613" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-            </svg>
+            <img src="/images/ok-ready-logo.png" alt="OK Ready" className="w-full h-full object-contain" />
           </div>
           <span className="text-sm sm:text-base font-medium text-earth-200 group-hover:text-earth-50 transition-colors hidden xs:block">
             OK Ready Australia
