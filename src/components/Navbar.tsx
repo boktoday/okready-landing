@@ -26,6 +26,7 @@ export default function Navbar({ onJoinClick }: NavbarProps) {
     { label: 'Pillars', href: '#pillars', id: 'pillars' },
     { label: 'Curriculum', href: '#curriculum', id: 'curriculum' },
     { label: 'Pricing', href: '#pricing', id: 'pricing' },
+    { label: 'Teens Workshop', href: '#teens-workshop', id: 'teens-workshop' },
     { label: 'Coaching', href: '#coaching', id: 'coaching' },
   ];
 
