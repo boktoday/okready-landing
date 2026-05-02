@@ -4,7 +4,7 @@ interface HeroProps {
 
 export default function Hero({ onJoinClick }: HeroProps) {
   return (
-    <section className="relative min-h-[100dvh] flex items-center pt-20 overflow-hidden">
+    <section className="relative min-h-[calc(100dvh+40px)] flex items-center pt-20 overflow-hidden">
       {/* Blueprint house plan background */}
       <div className="absolute inset-0 pointer-events-none z-0">
         <div className="absolute inset-0 bg-earth-950/80 z-[1]" />
