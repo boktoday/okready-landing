@@ -4,9 +4,19 @@ interface HeroProps {
 
 export default function Hero({ onJoinClick }: HeroProps) {
   return (
-    <section className="relative min-h-[100dvh] flex items-center pt-20">
+    <section className="relative min-h-[100dvh] flex items-center pt-20 overflow-hidden">
+      {/* Blueprint house plan background */}
+      <div className="absolute inset-0 pointer-events-none z-0">
+        <div className="absolute inset-0 bg-earth-950/80 z-[1]" />
+        <img
+          src="/images/okready-house-plan.jpg"
+          alt=""
+          className="w-full h-full object-cover opacity-25 mix-blend-luminosity"
+        />
+      </div>
+
       {/* Background gradient orb */}
-      <div className="absolute top-1/4 right-1/4 w-[600px] h-[600px] bg-earth-700/10 rounded-full blur-[150px] animate-pulse-glow pointer-events-none" />
+      <div className="absolute top-1/4 right-1/4 w-[600px] h-[600px] bg-earth-700/10 rounded-full blur-[150px] animate-pulse-glow pointer-events-none z-[1]" />
       
       <div className="max-w-[1400px] mx-auto px-6 w-full">
         <div className="grid md:grid-cols-2 gap-12 md:gap-20 items-center">
