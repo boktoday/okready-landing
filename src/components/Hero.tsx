@@ -57,20 +57,6 @@ export default function Hero({ onJoinClick }: HeroProps) {
               </a>
             </div>
 
-            <div className="flex items-center gap-6 mt-10 pt-8 border-t border-white/5">
-              <div className="flex -space-x-2">
-                {[...Array(4)].map((_, i) => (
-                  <div
-                    key={i}
-                    className="w-8 h-8 rounded-full border-2 border-earth-950 bg-gradient-to-br from-earth-500 to-earth-600"
-                  />
-                ))}
-              </div>
-              <div>
-                <div className="text-sm font-medium text-earth-200">Early access</div>
-                <div className="text-xs text-earth-500">Join 50+ on the waitlist</div>
-              </div>
-            </div>
           </div>
 
           {/* Right visual */}
