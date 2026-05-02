@@ -7,11 +7,11 @@ export default function Hero({ onJoinClick }: HeroProps) {
     <section className="relative min-h-[100dvh] flex items-center pt-20 overflow-hidden">
       {/* Blueprint house plan background */}
       <div className="absolute inset-0 pointer-events-none z-0">
-        <div className="absolute inset-0 bg-earth-950/96 z-[1]" />
+        <div className="absolute inset-0 bg-earth-950/80 z-[1]" />
         <img
           src="/images/okready-house-plan.jpg"
           alt=""
-          className="w-full h-full object-cover opacity-8 mix-blend-luminosity"
+          className="w-full h-full object-cover opacity-25 mix-blend-luminosity"
         />
       </div>
 
