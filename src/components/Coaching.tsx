@@ -83,12 +83,12 @@ export default function Coaching({ onJoinClick }: CoachingProps) {
                 </div>
               )}
 
-              <button
-                onClick={onJoinClick}
-                className="w-full px-6 py-3.5 bg-earth-100 text-earth-950 rounded-full text-sm font-semibold hover:bg-earth-50 transition-all hover:scale-[1.02] active:scale-[0.98]"
+              <a
+                href="tel:+61490393533"
+                className="w-full px-6 py-3.5 bg-earth-100 text-earth-950 rounded-full text-sm font-semibold hover:bg-earth-50 transition-all hover:scale-[1.02] active:scale-[0.98] block text-center"
               >
-                Get Started
-              </button>
+                Call: 0490 393 533
+              </a>
             </div>
           ))}
         </div>
