@@ -86,7 +86,7 @@ export default function Pricing({ onJoinClick }: PricingProps) {
 
               <button
                 onClick={onJoinClick}
-                className="w-full px-6 py-3 bg-amber-500/20 border border-amber-500/30 text-amber-300 rounded-xl text-sm font-semibold hover:bg-amber-500/30 hover:text-amber-200 transition-all hover:scale-[1.02] active:scale-[0.98]"
+                className="w-full px-6 py-3 bg-earth-100 text-earth-950 rounded-full text-sm font-semibold hover:bg-earth-50 transition-all hover:scale-[1.02] active:scale-[0.98]"
               >
                 Join the Waitlist
               </button>

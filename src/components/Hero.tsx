@@ -51,7 +51,7 @@ export default function Hero({ onJoinClick }: HeroProps) {
               </button>
               <a
                 href="#pillars"
-                className="px-8 py-4 border border-white/10 text-earth-300 rounded-full text-sm font-medium hover:border-white/20 hover:text-earth-100 transition-all"
+                className="px-8 py-4 bg-earth-100 text-earth-950 rounded-full text-sm font-semibold hover:bg-earth-50 transition-all hover:scale-105 active:scale-[0.98]"
               >
                 Explore the Pathway
               </a>

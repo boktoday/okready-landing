@@ -85,11 +85,7 @@ export default function Coaching({ onJoinClick }: CoachingProps) {
 
               <button
                 onClick={onJoinClick}
-                className={`w-full px-6 py-3.5 rounded-xl text-sm font-semibold transition-all hover:scale-[1.02] active:scale-[0.98] ${
-                  tier.popular
-                    ? 'bg-amber-500/20 border border-amber-500/30 text-amber-300 hover:bg-amber-500/30 hover:text-amber-200'
-                    : 'bg-white/[0.03] border border-white/10 text-earth-300 hover:bg-white/[0.06] hover:text-earth-200'
-                }`}
+                className="w-full px-6 py-3.5 bg-earth-100 text-earth-950 rounded-full text-sm font-semibold hover:bg-earth-50 transition-all hover:scale-[1.02] active:scale-[0.98]"
               >
                 Get Started
               </button>

@@ -95,7 +95,7 @@ export default function TeensWorkshop() {
                 href="https://square.link/u/CxZUUBOw"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block w-full py-3 px-6 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 text-earth-950 font-semibold text-sm hover:from-amber-400 hover:to-amber-500 transition-all duration-300 text-center"
+                className="inline-block w-full py-3 px-6 bg-earth-100 text-earth-950 rounded-full font-semibold text-sm hover:bg-earth-50 transition-all hover:scale-[1.02] active:scale-[0.98] text-center"
               >
                 Register Now
               </a>
