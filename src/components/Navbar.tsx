@@ -50,12 +50,12 @@ export default function Navbar({ onJoinClick }: NavbarProps) {
         </a>
 
         {/* Desktop nav */}
-        <div className="hidden md:flex items-center gap-6">
+        <div className="hidden md:flex items-center gap-3">
           {navLinks.map((link) => (
             <a
               key={link.id}
               href={link.href}
-              className="text-xs text-earth-400 hover:text-earth-200 transition-colors uppercase tracking-wider"
+              className="px-3.5 py-1.5 bg-earth-100 text-earth-950 rounded-full text-xs font-semibold hover:bg-earth-50 transition-all hover:scale-105 active:scale-[0.98] uppercase tracking-wider"
             >
               {link.label}
             </a>
@@ -129,7 +129,7 @@ export default function Navbar({ onJoinClick }: NavbarProps) {
               e.preventDefault();
               handleNavClick(link.id);
             }}
-            className="text-xl text-earth-300 hover:text-amber-300 transition-colors uppercase tracking-wider font-medium"
+            className="px-5 py-2.5 bg-earth-100 text-earth-950 rounded-full text-base font-semibold hover:bg-earth-50 transition-all uppercase tracking-wider text-center w-full"
           >
             {link.label}
           </a>
