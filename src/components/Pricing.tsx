@@ -19,7 +19,7 @@ export default function Pricing({ onJoinClick }: PricingProps) {
         <div className="max-w-[65ch] mb-16">
           <h2 className="text-3xl md:text-5xl font-bold tracking-tighter mb-4">
             <span className="gradient-text">Lifetime Access</span>{' '}
-            <span className="text-earth-100">from $79.99</span>
+            <span className="text-earth-100">from $49.99</span>
           </h2>
           <p className="text-base md:text-lg text-earth-400 leading-relaxed">
             Built for <strong className="text-amber-300">everyday people, not preppers</strong>. No prior experience needed. 
@@ -57,7 +57,7 @@ export default function Pricing({ onJoinClick }: PricingProps) {
               <div className="mb-6">
                 <div className="text-xs text-amber-400 uppercase tracking-widest mb-2">One-time payment — Early Bird</div>
                 <div className="flex items-baseline gap-1">
-                  <span className="text-5xl font-bold text-earth-100">$79</span>
+                  <span className="text-5xl font-bold text-earth-100">$49</span>
                   <span className="text-2xl text-earth-400">.99</span>
                 </div>
                 <div className="text-sm text-earth-500 mt-1">lifetime access</div>
