@@ -1,5 +1,6 @@
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
+import AudioPlayer from './AudioPlayer';
 
 const principlesLeft = [
   {
@@ -72,7 +73,12 @@ export default function Antifragile() {
               building a life that thrives on uncertainty.
             </p>
 
-            <div className="space-y-6">
+            <AudioPlayer
+              src="/audio/the-antifragile-mindset.mp3"
+              title="Listen to the full Antifragile Mindset guide"
+            />
+
+            <div className="space-y-6 mt-10">
               {principlesLeft.map((p) => (
                 <div key={p.title} className="group cursor-default">
                   <div className="flex items-start gap-4">
