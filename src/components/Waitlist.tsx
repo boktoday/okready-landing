@@ -99,7 +99,7 @@ export default function Waitlist() {
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 placeholder="Your name"
-                className="w-full px-4 py-3 rounded-xl bg-earth-900/60 border border-white/10 text-earth-200 placeholder-earth-600 text-sm focus:outline-none focus:border-amber-500/40 focus:ring-1 focus:ring-amber-500/20 transition-all"
+                className="w-full px-4 py-3 rounded-xl bg-earth-100 border border-earth-300 text-earth-950 placeholder-earth-500 text-sm focus:outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500/30 transition-all"
               />
             </div>
 
@@ -113,7 +113,7 @@ export default function Waitlist() {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="you@example.com"
-                className="w-full px-4 py-3 rounded-xl bg-earth-900/60 border border-white/10 text-earth-200 placeholder-earth-600 text-sm focus:outline-none focus:border-amber-500/40 focus:ring-1 focus:ring-amber-500/20 transition-all"
+                className="w-full px-4 py-3 rounded-xl bg-earth-100 border border-earth-300 text-earth-950 placeholder-earth-500 text-sm focus:outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500/30 transition-all"
               />
               {error && (
                 <p className="text-xs text-amber-400 mt-1">{error}</p>
